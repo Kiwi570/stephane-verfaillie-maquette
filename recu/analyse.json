@@ -1,0 +1,1351 @@
+{
+  "dossier": "/Users/paul/Downloads/stephane-verfaillie-recu",
+  "date": "2026-11-16T17:35:08.173Z",
+  "detection": "Vision (macOS) + mesures sharp",
+  "planches": [
+    "planche.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [],
+  "images": [
+    {
+      "fichier": "logo-logopng.png",
+      "nom": "logo-logopng",
+      "drapeau": "logo",
+      "largeur": 320,
+      "hauteur": 316,
+      "ratio": "1:1",
+      "ratio_valeur": 1.013,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 19283,
+      "transparence": true,
+      "sujet": {
+        "x": 1.8,
+        "y": 19.6,
+        "l": 95.1,
+        "h": 79.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        59
+      ],
+      "cadrage_css": "45% 59%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.31,
+          "ton": "moyen",
+          "recouvre_sujet": 0.42
+        },
+        {
+          "cote": "droite",
+          "score": 0.19,
+          "ton": "moyen",
+          "recouvre_sujet": 0.74
+        },
+        {
+          "cote": "bas",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 0.93
+        },
+        {
+          "cote": "gauche",
+          "score": 0.09,
+          "ton": "moyen",
+          "recouvre_sujet": 0.76
+        }
+      ],
+      "qualite": {
+        "nettete": 49.4,
+        "bruit": 0.23,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "logo",
+        "a_verifier": false,
+        "texte": "STÉPHANE VERFAILLIE · INGÉNIEUR INFORMATIQUE",
+        "blocs": 2,
+        "surface": 8,
+        "details": [
+          {
+            "texte": "STÉPHANE VERFAILLIE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "INGÉNIEUR INFORMATIQUE",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "8f334d79716d330f",
+      "drapeaux": [
+        "logo",
+        "texte du logo"
+      ]
+    },
+    {
+      "fichier": "arsene-belkhamsa.png",
+      "nom": "arsene-belkhamsa",
+      "drapeau": "portrait",
+      "largeur": 2000,
+      "hauteur": 2000,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 46447,
+      "transparence": false,
+      "sujet": {
+        "x": 37.5,
+        "y": 33.6,
+        "l": 25.4,
+        "h": 33.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        48
+      ],
+      "cadrage_css": "49% 48%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.99,
+          "ton": "sombre",
+          "recouvre_sujet": 0.01
+        },
+        {
+          "cote": "bas",
+          "score": 0.99,
+          "ton": "sombre",
+          "recouvre_sujet": 0.01
+        },
+        {
+          "cote": "gauche",
+          "score": 0.93,
+          "ton": "sombre",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "droite",
+          "score": 0.91,
+          "ton": "sombre",
+          "recouvre_sujet": 0.02
+        }
+      ],
+      "qualite": {
+        "nettete": 0,
+        "bruit": 0.02,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "floue"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "100c32b2b2320c10",
+      "drapeaux": [
+        "portrait",
+        "floue",
+        "calme haut/bas/gauche/droite"
+      ]
+    },
+    {
+      "fichier": "nebule-hach.png",
+      "nom": "nebule-hach",
+      "drapeau": "portrait",
+      "largeur": 2000,
+      "hauteur": 2000,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 35703,
+      "transparence": false,
+      "sujet": {
+        "x": 32.6,
+        "y": 30,
+        "l": 33.3,
+        "h": 42.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        49
+      ],
+      "cadrage_css": "49% 49%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.91,
+          "ton": "moyen",
+          "recouvre_sujet": 0.05
+        },
+        {
+          "cote": "bas",
+          "score": 0.9,
+          "ton": "moyen",
+          "recouvre_sujet": 0.07
+        },
+        {
+          "cote": "droite",
+          "score": 0.85,
+          "ton": "moyen",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "gauche",
+          "score": 0.84,
+          "ton": "moyen",
+          "recouvre_sujet": 0.08
+        }
+      ],
+      "qualite": {
+        "nettete": 10.8,
+        "bruit": 0.02,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "2816696969681428",
+      "drapeaux": [
+        "portrait",
+        "calme haut/bas/droite/gauche"
+      ]
+    },
+    {
+      "fichier": "elisabeth-foessel.png",
+      "nom": "elisabeth-foessel",
+      "drapeau": "portrait",
+      "largeur": 2000,
+      "hauteur": 2000,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 18355,
+      "transparence": false,
+      "sujet": {
+        "x": 36,
+        "y": 28.9,
+        "l": 25.8,
+        "h": 42.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        46
+      ],
+      "cadrage_css": "51% 46%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.92,
+          "ton": "sombre",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "gauche",
+          "score": 0.84,
+          "ton": "sombre",
+          "recouvre_sujet": 0.04
+        },
+        {
+          "cote": "haut",
+          "score": 0.83,
+          "ton": "sombre",
+          "recouvre_sujet": 0.04
+        },
+        {
+          "cote": "bas",
+          "score": 0.82,
+          "ton": "sombre",
+          "recouvre_sujet": 0.05
+        }
+      ],
+      "qualite": {
+        "nettete": 0,
+        "bruit": 0,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "floue"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "200c32a222321c20",
+      "drapeaux": [
+        "portrait",
+        "floue",
+        "calme droite/gauche/haut/bas"
+      ]
+    },
+    {
+      "fichier": "germain-bernhard.png",
+      "nom": "germain-bernhard",
+      "drapeau": "portrait",
+      "largeur": 2000,
+      "hauteur": 2000,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 50964,
+      "transparence": false,
+      "sujet": {
+        "x": 34.3,
+        "y": 29.2,
+        "l": 31.5,
+        "h": 42.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        48
+      ],
+      "cadrage_css": "52% 48%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.89,
+          "ton": "moyen",
+          "recouvre_sujet": 0.05
+        },
+        {
+          "cote": "gauche",
+          "score": 0.88,
+          "ton": "moyen",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "bas",
+          "score": 0.88,
+          "ton": "moyen",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "droite",
+          "score": 0.87,
+          "ton": "moyen",
+          "recouvre_sujet": 0.06
+        }
+      ],
+      "qualite": {
+        "nettete": 0.1,
+        "bruit": 0.02,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "floue"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "100c326869301408",
+      "drapeaux": [
+        "portrait",
+        "floue",
+        "calme haut/gauche/bas/droite"
+      ]
+    },
+    {
+      "fichier": "christophe-borger.png",
+      "nom": "christophe-borger",
+      "drapeau": "portrait",
+      "largeur": 2000,
+      "hauteur": 2000,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 51250,
+      "transparence": false,
+      "sujet": {
+        "x": 34.8,
+        "y": 28.7,
+        "l": 31.2,
+        "h": 43.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        47
+      ],
+      "cadrage_css": "53% 47%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.88,
+          "ton": "moyen",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "haut",
+          "score": 0.87,
+          "ton": "moyen",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "gauche",
+          "score": 0.86,
+          "ton": "moyen",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "bas",
+          "score": 0.86,
+          "ton": "moyen",
+          "recouvre_sujet": 0.06
+        }
+      ],
+      "qualite": {
+        "nettete": 0,
+        "bruit": 0.02,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "floue"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "2004b26969b20420",
+      "drapeaux": [
+        "portrait",
+        "floue",
+        "calme droite/haut/gauche/bas"
+      ]
+    },
+    {
+      "fichier": "thibaut-weissgerber.png",
+      "nom": "thibaut-weissgerber",
+      "drapeau": "portrait",
+      "largeur": 2000,
+      "hauteur": 2000,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 17989,
+      "transparence": false,
+      "sujet": {
+        "x": 37.5,
+        "y": 28.3,
+        "l": 27.5,
+        "h": 42.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        44
+      ],
+      "cadrage_css": "51% 44%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.93,
+          "ton": "sombre",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "droite",
+          "score": 0.92,
+          "ton": "sombre",
+          "recouvre_sujet": 0.05
+        },
+        {
+          "cote": "bas",
+          "score": 0.91,
+          "ton": "sombre",
+          "recouvre_sujet": 0.04
+        },
+        {
+          "cote": "haut",
+          "score": 0.8,
+          "ton": "sombre",
+          "recouvre_sujet": 0.05
+        }
+      ],
+      "qualite": {
+        "nettete": 0,
+        "bruit": 0,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "floue"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "300c303232320810",
+      "drapeaux": [
+        "portrait",
+        "floue",
+        "calme gauche/droite/bas/haut"
+      ]
+    },
+    {
+      "fichier": "propos-moi.jpg",
+      "nom": "propos-moi",
+      "drapeau": "portrait",
+      "largeur": 1026,
+      "hauteur": 1026,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 290418,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 100,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        49,
+        27
+      ],
+      "cadrage_css": "49% 27%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 46.7,
+        "bruit": 1.57,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1026 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "73736333b3c7339f",
+      "drapeaux": [
+        "portrait",
+        "visage",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "profileroune.png",
+      "nom": "profileroune",
+      "drapeau": "portrait",
+      "largeur": 690,
+      "hauteur": 690,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 663808,
+      "transparence": true,
+      "sujet": {
+        "x": 16.9,
+        "y": 0,
+        "l": 73,
+        "h": 78,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        53,
+        39
+      ],
+      "cadrage_css": "53% 39%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.31,
+          "ton": "moyen",
+          "recouvre_sujet": 0.27
+        },
+        {
+          "cote": "gauche",
+          "score": 0.21,
+          "ton": "moyen",
+          "recouvre_sujet": 0.45
+        },
+        {
+          "cote": "droite",
+          "score": 0.15,
+          "ton": "moyen",
+          "recouvre_sujet": 0.58
+        },
+        {
+          "cote": "haut",
+          "score": 0.04,
+          "ton": "moyen",
+          "recouvre_sujet": 0.73
+        }
+      ],
+      "qualite": {
+        "nettete": 29.4,
+        "bruit": 0.63,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "690 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "0f3371313173130f",
+      "drapeaux": [
+        "portrait",
+        "visage",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "stephaneverfaillie.png",
+      "nom": "stephaneverfaillie",
+      "drapeau": "autre",
+      "largeur": 455,
+      "hauteur": 450,
+      "ratio": "1:1",
+      "ratio_valeur": 1.011,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 40863,
+      "transparence": true,
+      "sujet": {
+        "x": 0.3,
+        "y": 19.4,
+        "l": 98.2,
+        "h": 77.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        56
+      ],
+      "cadrage_css": "45% 56%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.31,
+          "ton": "moyen",
+          "recouvre_sujet": 0.44
+        },
+        {
+          "cote": "droite",
+          "score": 0.19,
+          "ton": "moyen",
+          "recouvre_sujet": 0.75
+        },
+        {
+          "cote": "bas",
+          "score": 0.18,
+          "ton": "moyen",
+          "recouvre_sujet": 0.9
+        },
+        {
+          "cote": "gauche",
+          "score": 0.07,
+          "ton": "moyen",
+          "recouvre_sujet": 0.77
+        }
+      ],
+      "qualite": {
+        "nettete": 64.3,
+        "bruit": 0.1,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "455 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "STÉPHANE VERFAILLIE · INGÉNIEUR INFORMATIQUE",
+        "blocs": 2,
+        "surface": 8.1,
+        "details": [
+          {
+            "texte": "STÉPHANE VERFAILLIE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "INGÉNIEUR INFORMATIQUE",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "0e3349715169170e",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "website.jpg",
+      "nom": "website",
+      "drapeau": "portrait",
+      "largeur": 1080,
+      "hauteur": 720,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 117421,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 9,
+        "l": 53.3,
+        "h": 90.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        35,
+        47
+      ],
+      "cadrage_css": "35% 47%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.3,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.06,
+          "ton": "sombre",
+          "recouvre_sujet": 0.4
+        },
+        {
+          "cote": "bas",
+          "score": 0.02,
+          "ton": "sombre",
+          "recouvre_sujet": 0.53
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.91
+        }
+      ],
+      "qualite": {
+        "nettete": 33.1,
+        "bruit": 0.67,
+        "compression": 0.98,
+        "faible": true,
+        "raisons": [
+          "1080 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "d0c88972868c7ebb",
+      "drapeaux": [
+        "portrait",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "website-2.jpg",
+      "nom": "website-2",
+      "drapeau": "autre",
+      "largeur": 1080,
+      "hauteur": 849,
+      "ratio": "5:4",
+      "ratio_valeur": 1.272,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 222139,
+      "transparence": false,
+      "sujet": {
+        "x": 10.9,
+        "y": 5.8,
+        "l": 81.9,
+        "h": 82.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        48
+      ],
+      "cadrage_css": "52% 48%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.06,
+          "ton": "sombre",
+          "recouvre_sujet": 0.6
+        },
+        {
+          "cote": "haut",
+          "score": 0.05,
+          "ton": "sombre",
+          "recouvre_sujet": 0.68
+        },
+        {
+          "cote": "bas",
+          "score": 0.05,
+          "ton": "sombre",
+          "recouvre_sujet": 0.55
+        },
+        {
+          "cote": "droite",
+          "score": 0.04,
+          "ton": "sombre",
+          "recouvre_sujet": 0.68
+        }
+      ],
+      "qualite": {
+        "nettete": 39.2,
+        "bruit": 1.15,
+        "compression": 0.99,
+        "faible": true,
+        "raisons": [
+          "1080 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "650043R · 00520 · SEC 219 HCKO · K482G08460 · SEC 219 HCKOS · X482608460 · GEDDUJATC · SEC 219 HCKO. · K482608460 · 6EDD43A7C · M378B57730H1 · TOB · SEC 219 HCK",
+        "blocs": 18,
+        "surface": 10.1,
+        "details": [
+          {
+            "texte": "650043R",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "00520",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "SEC 219 HCKO",
+            "niveau": "marque"
+          },
+          {
+            "texte": "K482G08460",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "SEC 219 HCKOS",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "X482608460",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "GEDDUJATC",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "SEC 219 HCKO.",
+            "niveau": "marque"
+          },
+          {
+            "texte": "K482608460",
+            "niveau": "marque"
+          },
+          {
+            "texte": "6EDD43A7C",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "M378B57730H1",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "TOB",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "f5fc61d5f6a8e10b",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "filigrane ou marque"
+      ]
+    },
+    {
+      "fichier": "website-3.jpg",
+      "nom": "website-3",
+      "drapeau": "autre",
+      "largeur": 1080,
+      "hauteur": 721,
+      "ratio": "3:2",
+      "ratio_valeur": 1.498,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 111734,
+      "transparence": false,
+      "sujet": {
+        "x": 62.7,
+        "y": 16.9,
+        "l": 37.3,
+        "h": 36.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        72,
+        36
+      ],
+      "cadrage_css": "72% 36%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.22,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.2,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.17,
+          "ton": "sombre",
+          "recouvre_sujet": 0.19
+        },
+        {
+          "cote": "droite",
+          "score": 0.09,
+          "ton": "sombre",
+          "recouvre_sujet": 0.34
+        }
+      ],
+      "qualite": {
+        "nettete": 16.2,
+        "bruit": 0.49,
+        "compression": 0.98,
+        "faible": true,
+        "raisons": [
+          "1080 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "87b4583ef5f868a4",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "website-4.jpg",
+      "nom": "website-4",
+      "drapeau": "autre",
+      "largeur": 1080,
+      "hauteur": 720,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 100296,
+      "transparence": false,
+      "sujet": {
+        "x": 19.6,
+        "y": 14.1,
+        "l": 56.9,
+        "h": 79.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        53
+      ],
+      "cadrage_css": "48% 53%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.72,
+          "ton": "sombre",
+          "recouvre_sujet": 0.34
+        },
+        {
+          "cote": "gauche",
+          "score": 0.57,
+          "ton": "sombre",
+          "recouvre_sujet": 0.41
+        },
+        {
+          "cote": "droite",
+          "score": 0.57,
+          "ton": "sombre",
+          "recouvre_sujet": 0.33
+        },
+        {
+          "cote": "bas",
+          "score": 0.41,
+          "ton": "sombre",
+          "recouvre_sujet": 0.47
+        }
+      ],
+      "qualite": {
+        "nettete": 45.2,
+        "bruit": 0.75,
+        "compression": 0.99,
+        "faible": true,
+        "raisons": [
+          "1080 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "A489E4KX · :ND1OSPZX-17210TO · O WD Blue",
+        "blocs": 3,
+        "surface": 2.3,
+        "details": [
+          {
+            "texte": "A489E4KX",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": ":ND1OSPZX-17210TO",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "O WD Blue",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "35d0e5e6e879b2d4",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "kine.png",
+      "nom": "kine",
+      "drapeau": "produit",
+      "largeur": 679,
+      "hauteur": 662,
+      "ratio": "1.03",
+      "ratio_valeur": 1.026,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 347010,
+      "transparence": true,
+      "sujet": {
+        "x": 8.2,
+        "y": 8.8,
+        "l": 82.2,
+        "h": 85,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        42
+      ],
+      "cadrage_css": "51% 42%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.23,
+          "ton": "clair",
+          "recouvre_sujet": 0.65
+        },
+        {
+          "cote": "bas",
+          "score": 0.23,
+          "ton": "clair",
+          "recouvre_sujet": 0.68
+        },
+        {
+          "cote": "gauche",
+          "score": 0.12,
+          "ton": "clair",
+          "recouvre_sujet": 0.68
+        },
+        {
+          "cote": "haut",
+          "score": 0.09,
+          "ton": "clair",
+          "recouvre_sujet": 0.62
+        }
+      ],
+      "qualite": {
+        "nettete": 45.8,
+        "bruit": 0.38,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "679 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "0e336d4ddc1d3306",
+      "drapeaux": [
+        "produit",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "abakom-new-2024.webp",
+      "nom": "abakom-new-2024",
+      "drapeau": "produit",
+      "largeur": 1024,
+      "hauteur": 349,
+      "ratio": "3:1",
+      "ratio_valeur": 2.934,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 21482,
+      "transparence": false,
+      "sujet": {
+        "x": 0.9,
+        "y": 12.4,
+        "l": 98.1,
+        "h": 82.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        52
+      ],
+      "cadrage_css": "46% 52%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.81
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.81
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.63
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.85
+        }
+      ],
+      "qualite": {
+        "nettete": 47.3,
+        "bruit": 0.39,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1024 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "ABAKOM · KMINFORMATIQUE",
+        "blocs": 2,
+        "surface": 78,
+        "details": [
+          {
+            "texte": "ABAKOM",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "KMINFORMATIQUE",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "dcdedaa8d4d4d6a2",
+      "drapeaux": [
+        "produit",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "proxi.png",
+      "nom": "proxi",
+      "drapeau": "produit",
+      "largeur": 559,
+      "hauteur": 559,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 38851,
+      "transparence": true,
+      "sujet": {
+        "x": 13.5,
+        "y": 40.1,
+        "l": 70.9,
+        "h": 27.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        50
+      ],
+      "cadrage_css": "49% 50%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.98,
+          "ton": "sombre",
+          "recouvre_sujet": 0.05
+        },
+        {
+          "cote": "haut",
+          "score": 0.97,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.62,
+          "ton": "sombre",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "droite",
+          "score": 0.62,
+          "ton": "sombre",
+          "recouvre_sujet": 0.17
+        }
+      ],
+      "qualite": {
+        "nettete": 23.8,
+        "bruit": 0.06,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "559 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "026116c6f8b64914",
+      "drapeaux": [
+        "produit",
+        "petite",
+        "calme bas/haut"
+      ]
+    },
+    {
+      "fichier": "google.png",
+      "nom": "google",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 27575,
+      "transparence": true,
+      "sujet": {
+        "x": 20.5,
+        "y": 35.8,
+        "l": 60.1,
+        "h": 41.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        51
+      ],
+      "cadrage_css": "50% 51%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.64,
+          "ton": "clair",
+          "recouvre_sujet": 0.2
+        },
+        {
+          "cote": "haut",
+          "score": 0.63,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.57,
+          "ton": "clair",
+          "recouvre_sujet": 0.21
+        },
+        {
+          "cote": "droite",
+          "score": 0.53,
+          "ton": "clair",
+          "recouvre_sujet": 0.21
+        }
+      ],
+      "qualite": {
+        "nettete": 24.1,
+        "bruit": 0.07,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "0f37766561712307",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+[
+  { "nom": "Elisabeth Foessel", "texte": "Personne très compétente et très réactive, je conseille cette personne vivement.", "aspects": [] },
+  { "nom": "Zoé C.", "texte": "À l'écoute, compétent et réactif. Je recommande ses services les yeux fermés.", "aspects": ["Professionnalisme", "Qualité", "Rapport qualité-prix", "Réactivité"] },
+  { "nom": "Thibaut W.", "texte": "", "aspects": ["Professionnalisme", "Rapport qualité-prix", "Réactivité"] }
+]

@@ -1,0 +1,8 @@
+[
+  { "icone": "lent", "souci": "Il est devenu lent", "reponse": "Nettoyage logiciel, optimisation des performances, nettoyage physique.", "prix": "Inclus dans le forfait" },
+  { "icone": "virus", "souci": "Il y a un virus", "reponse": "Suppression des virus et remise en ordre du système.", "prix": "Inclus dans le forfait" },
+  { "icone": "cadenas", "souci": "Mot de passe oublié", "reponse": "Déverrouillage du PC : suppression du mot de passe.", "prix": "" },
+  { "icone": "dossier", "souci": "Mes fichiers ont disparu", "reponse": "Récupération de données sur le disque.", "prix": "100 à 150 €" },
+  { "icone": "wifi", "souci": "Le Wi-Fi ne passe pas", "reponse": "Box internet, switch, répéteur et Wi-Fi installés et réglés.", "prix": "Inclus dans le forfait" },
+  { "icone": "piece", "souci": "Une pièce a lâché", "reponse": "Remplacement de disque dur, RAM ou carte mère, toutes marques.", "prix": "Réparation sur devis" }
+]

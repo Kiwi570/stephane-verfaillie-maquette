@@ -1,0 +1,42 @@
+… fichiers
+  fait en 0 s
+… grille
+  fait en 32 s
+… mesures
+  20/66
+  42/66
+  62/66
+  fait en 98 s
+… mesures:balayage
+  fait en 29 s
+… films
+  fait en 132 s
+… bords
+  fait en 64 s
+… parcours:intro
+  fait en 56 s
+… parcours:menu
+  fait en 4 s
+… parcours:liens
+  fait en 66 s
+… parcours:hauteur
+  fait en 54 s
+… parcours:projet
+  fait en 0 s
+… ecran
+  fait en 30 s
+… fluidite
+  fait en 175 s
+… mouvement
+  fait en 121 s
+… vitesse
+  fait en 14 s
+… captures
+  fait en 133 s
+… safari
+  fait en 0 s
+
+Échecs : 17 · À regarder : 29 · Non lancé : 1
+Relancer seulement ce qui a échoué : node _audit/audit.mjs --pages=/,/404,/a-propos,/professionnels,/services,/rendez-vous --seulement=fichiers,mesures,mouvement
+Rapport : /home/claude/stephane-verfaillie-maquette/_audit/rapport/rapport.md (passe 20261116-191820-standard)
+FIN 1

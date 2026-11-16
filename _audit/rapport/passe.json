@@ -1,0 +1,16 @@
+{
+ "id": "20261116-195456-complet-cible-partiel",
+ "date": "2026-11-16T19:58:00.161Z",
+ "niveau": "complet",
+ "pages": "/,/a-propos,/professionnels",
+ "etapes": [
+  "fichiers",
+  "mesures"
+ ],
+ "version": "1",
+ "echecs": 0,
+ "aRegarder": 5,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "complet"
+}

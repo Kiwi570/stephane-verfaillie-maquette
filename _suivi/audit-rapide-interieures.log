@@ -1,0 +1,40 @@
+… fichiers
+  fait en 0 s
+… grille
+  fait en 25 s
+… mesures
+  22/24
+  fait en 36 s
+… mesures:balayage
+  fait en 0 s
+… films
+  fait en 104 s
+… bords
+  fait en 43 s
+… parcours:intro
+  fait en 47 s
+… parcours:menu
+  fait en 4 s
+… parcours:liens
+  fait en 46 s
+… parcours:hauteur
+  fait en 46 s
+… parcours:projet
+  fait en 0 s
+… ecran
+  fait en 15 s
+… fluidite
+  fait en 139 s
+… mouvement
+  fait en 92 s
+… vitesse
+  fait en 11 s
+… captures
+  fait en 94 s
+… safari
+  fait en 0 s
+
+Échecs : 19 · À regarder : 29 · Non lancé : 1
+Relancer seulement ce qui a échoué : node _audit/audit.mjs --rapide --seulement=fichiers,mesures,parcours,mouvement
+Rapport : /home/claude/stephane-verfaillie-maquette/_audit/rapport/rapport.md (passe 20261116-181311-rapide-cible)
+FIN 1

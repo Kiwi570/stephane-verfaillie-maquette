@@ -1,0 +1,587 @@
+{
+  "site": "https://www.stephaneverfaillie.fr/",
+  "date": "2026-11-16T17:35:03.945Z",
+  "pages": [
+    "https://www.stephaneverfaillie.fr/",
+    "https://www.stephaneverfaillie.fr/contactus",
+    "https://www.stephaneverfaillie.fr/our-services",
+    "https://www.stephaneverfaillie.fr/privacy"
+  ],
+  "images": [
+    {
+      "fichier": "logo-logopng.png",
+      "nom": "logo-logopng",
+      "origine": "https://www.stephaneverfaillie.fr/web/image/474-ad50a79c/logopng.png",
+      "page": "https://www.stephaneverfaillie.fr/contactus",
+      "pages": 4,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "Contactez-moi",
+        "page": "Contactez-moi",
+        "fichier_origine": "logopng"
+      },
+      "largeur": 320,
+      "hauteur": 316,
+      "poids": 19283,
+      "format": "png",
+      "transparence": true,
+      "drapeau": "logo",
+      "marque": "sous-marque"
+    },
+    {
+      "fichier": "arsene-belkhamsa.png",
+      "nom": "arsene-belkhamsa",
+      "origine": "https://lh3.googleusercontent.com/a/ACg8ocK1Cnpplj9ta6pp56EXmtK-Ue5czniUAqxbVw1j3U0I3y8vGg=s0",
+      "page": "https://www.stephaneverfaillie.fr/",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "arsene belkhamsa",
+        "legende": "",
+        "titre": "",
+        "section": "À propos de moi",
+        "page": "Dépannage informatique - Stéphane Verfaillie",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 2000,
+      "largeur_origine": 2560,
+      "hauteur_origine": 2560,
+      "poids": 46447,
+      "format": "png",
+      "transparence": false,
+      "drapeau": "portrait"
+    },
+    {
+      "fichier": "nebule-hach.png",
+      "nom": "nebule-hach",
+      "origine": "https://lh3.googleusercontent.com/a/ACg8ocJTOjGqus0cmfH2kJIDt6yuBA90QVwsx3zHYf0Ck0NY0cwOcw=s0",
+      "page": "https://www.stephaneverfaillie.fr/",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "Nébule Hach",
+        "legende": "",
+        "titre": "",
+        "section": "À propos de moi",
+        "page": "Dépannage informatique - Stéphane Verfaillie",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 2000,
+      "largeur_origine": 2560,
+      "hauteur_origine": 2560,
+      "poids": 35703,
+      "format": "png",
+      "transparence": false,
+      "drapeau": "portrait"
+    },
+    {
+      "fichier": "elisabeth-foessel.png",
+      "nom": "elisabeth-foessel",
+      "origine": "https://lh3.googleusercontent.com/a/ACg8ocLMJNYtG6bliZNvo8eOA38xJeRlk0LDWeLSrzEf8tgI-YlLBw=s0",
+      "page": "https://www.stephaneverfaillie.fr/",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "Elisabeth Foessel",
+        "legende": "",
+        "titre": "",
+        "section": "À propos de moi",
+        "page": "Dépannage informatique - Stéphane Verfaillie",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 2000,
+      "largeur_origine": 2560,
+      "hauteur_origine": 2560,
+      "poids": 18355,
+      "format": "png",
+      "transparence": false,
+      "drapeau": "portrait"
+    },
+    {
+      "fichier": "germain-bernhard.png",
+      "nom": "germain-bernhard",
+      "origine": "https://lh3.googleusercontent.com/a/ACg8ocJAVFtxdqryampkuG0tZjReIuiY4lSKpkXq1zdhiOIQ3S2f7w=s0",
+      "page": "https://www.stephaneverfaillie.fr/",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "Germain Bernhard",
+        "legende": "",
+        "titre": "",
+        "section": "À propos de moi",
+        "page": "Dépannage informatique - Stéphane Verfaillie",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 2000,
+      "largeur_origine": 2560,
+      "hauteur_origine": 2560,
+      "poids": 50964,
+      "format": "png",
+      "transparence": false,
+      "drapeau": "portrait"
+    },
+    {
+      "fichier": "christophe-borger.png",
+      "nom": "christophe-borger",
+      "origine": "https://lh3.googleusercontent.com/a/ACg8ocLkF8wigS_cZqaR9qzW6fYJnfm4yHxo1orCvX816S3YJtJz=s0",
+      "page": "https://www.stephaneverfaillie.fr/",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "CHRISTOPHE BORGER",
+        "legende": "",
+        "titre": "",
+        "section": "À propos de moi",
+        "page": "Dépannage informatique - Stéphane Verfaillie",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 2000,
+      "largeur_origine": 2560,
+      "hauteur_origine": 2560,
+      "poids": 51250,
+      "format": "png",
+      "transparence": false,
+      "drapeau": "portrait"
+    },
+    {
+      "fichier": "thibaut-weissgerber.png",
+      "nom": "thibaut-weissgerber",
+      "origine": "https://lh3.googleusercontent.com/a/ACg8ocKUS9jZHe15pF6VBAlEd4hDPFJB-VvTkKf_uasMNnj6AouiHA=s0",
+      "page": "https://www.stephaneverfaillie.fr/",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "Thibaut WEISSGERBER",
+        "legende": "",
+        "titre": "",
+        "section": "À propos de moi",
+        "page": "Dépannage informatique - Stéphane Verfaillie",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 2000,
+      "largeur_origine": 2560,
+      "hauteur_origine": 2560,
+      "poids": 17989,
+      "format": "png",
+      "transparence": false,
+      "drapeau": "portrait"
+    },
+    {
+      "fichier": "propos-moi.jpg",
+      "nom": "propos-moi",
+      "origine": "https://lh3.googleusercontent.com/a-/ALV-UjV4xeYuV_gPIZRgXER0zmOS0qV1lD7ZqiIQEqVOqhlzecEfzB-c=s0",
+      "page": "https://www.stephaneverfaillie.fr/",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "À propos de moi",
+        "page": "Dépannage informatique - Stéphane Verfaillie",
+        "fichier_origine": ""
+      },
+      "largeur": 1026,
+      "hauteur": 1026,
+      "poids": 290418,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "portrait"
+    },
+    {
+      "fichier": "profileroune.png",
+      "nom": "profileroune",
+      "origine": "https://www.stephaneverfaillie.fr/web/image/796-150069ae/profileRoune.png",
+      "page": "https://www.stephaneverfaillie.fr/",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "À propos de moi",
+        "page": "Dépannage informatique - Stéphane Verfaillie",
+        "fichier_origine": "profileRoune"
+      },
+      "largeur": 690,
+      "hauteur": 690,
+      "poids": 663808,
+      "format": "png",
+      "transparence": true,
+      "drapeau": "portrait"
+    },
+    {
+      "fichier": "stephaneverfaillie.png",
+      "nom": "stephaneverfaillie",
+      "origine": "https://www.stephaneverfaillie.fr/web/image/website/1/logo/stephaneverfaillie?unique=ccd0b0b",
+      "page": "https://www.stephaneverfaillie.fr/",
+      "pages": 1,
+      "emplacement": "reseau",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "Dépannage informatique - Stéphane Verfaillie",
+        "fichier_origine": "stephaneverfaillie"
+      },
+      "largeur": 455,
+      "hauteur": 450,
+      "poids": 40863,
+      "format": "png",
+      "transparence": true,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "website.jpg",
+      "nom": "website",
+      "origine": "https://www.stephaneverfaillie.fr/web/image/website.s_banner_default_image",
+      "page": "https://www.stephaneverfaillie.fr/contactus",
+      "pages": 1,
+      "emplacement": "reseau",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "Contactez-moi",
+        "fichier_origine": "website"
+      },
+      "largeur": 1080,
+      "hauteur": 720,
+      "poids": 117421,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "portrait"
+    },
+    {
+      "fichier": "website-2.jpg",
+      "nom": "website-2",
+      "origine": "https://www.stephaneverfaillie.fr/web/image/website.s_quotes_carousel_demo_image_2",
+      "page": "https://www.stephaneverfaillie.fr/our-services",
+      "pages": 1,
+      "emplacement": "reseau",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "Services",
+        "fichier_origine": "website"
+      },
+      "largeur": 1080,
+      "hauteur": 849,
+      "poids": 222139,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "website-3.jpg",
+      "nom": "website-3",
+      "origine": "https://www.stephaneverfaillie.fr/web/image/website.s_quotes_carousel_demo_image_0",
+      "page": "https://www.stephaneverfaillie.fr/our-services",
+      "pages": 1,
+      "emplacement": "reseau",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "Services",
+        "fichier_origine": "website"
+      },
+      "largeur": 1080,
+      "hauteur": 721,
+      "poids": 111734,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "website-4.jpg",
+      "nom": "website-4",
+      "origine": "https://www.stephaneverfaillie.fr/web/image/website.s_quotes_carousel_demo_image_1",
+      "page": "https://www.stephaneverfaillie.fr/our-services",
+      "pages": 1,
+      "emplacement": "reseau",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "Services",
+        "fichier_origine": "website"
+      },
+      "largeur": 1080,
+      "hauteur": 720,
+      "poids": 100296,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "kine.png",
+      "nom": "kine",
+      "origine": "https://www.stephaneverfaillie.fr/web/image/699-ab87b6c3/kine.png",
+      "page": "https://www.stephaneverfaillie.fr/our-services",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "Mes références pro",
+        "page": "Services",
+        "fichier_origine": "kine"
+      },
+      "largeur": 679,
+      "hauteur": 662,
+      "poids": 347010,
+      "format": "png",
+      "transparence": true,
+      "drapeau": "produit"
+    },
+    {
+      "fichier": "abakom-new-2024.webp",
+      "nom": "abakom-new-2024",
+      "origine": "https://www.stephaneverfaillie.fr/web/image/2084-5613b8af/abakom%20new%202024.webp",
+      "page": "https://www.stephaneverfaillie.fr/our-services",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "Mes références pro",
+        "page": "Services",
+        "fichier_origine": "abakom new 2024"
+      },
+      "largeur": 1024,
+      "hauteur": 349,
+      "poids": 21482,
+      "format": "webp",
+      "transparence": false,
+      "drapeau": "produit"
+    },
+    {
+      "fichier": "proxi.png",
+      "nom": "proxi",
+      "origine": "https://www.stephaneverfaillie.fr/web/image/697-737285cf/proxi.png",
+      "page": "https://www.stephaneverfaillie.fr/our-services",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "Mes références pro",
+        "page": "Services",
+        "fichier_origine": "proxi"
+      },
+      "largeur": 559,
+      "hauteur": 559,
+      "poids": 38851,
+      "format": "png",
+      "transparence": true,
+      "drapeau": "produit"
+    },
+    {
+      "fichier": "google.png",
+      "nom": "google",
+      "origine": "https://www.stephaneverfaillie.fr/web/image/482-e94071d8/google.png",
+      "page": "https://www.stephaneverfaillie.fr/our-services",
+      "pages": 1,
+      "emplacement": "img (pied)",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "Professionnels",
+        "page": "Services",
+        "fichier_origine": "google"
+      },
+      "largeur": 512,
+      "hauteur": 512,
+      "poids": 27575,
+      "format": "png",
+      "transparence": true,
+      "drapeau": "autre"
+    }
+  ],
+  "ecartees": [
+    {
+      "url": "https://www.stephaneverfaillie.fr/web/image/website/1/logo/stephaneverfaillie?unique=ccd0b0b",
+      "raison": "pas une image"
+    },
+    {
+      "url": "https://www.stephaneverfaillie.fr/web/image/website/1/logo/stephaneverfaillie?unique=ccd0b0b",
+      "raison": "pas une image"
+    },
+    {
+      "url": "https://www.stephaneverfaillie.fr/web/image/website/1/logo?unique=1843820",
+      "raison": "pas une image"
+    },
+    {
+      "url": "https://www.stephaneverfaillie.fr/web/image/website/1/logo?unique=1843820",
+      "raison": "pas une image"
+    },
+    {
+      "url": "https://www.stephaneverfaillie.fr/web/image/website/1/logo/stephaneverfaillie?unique=ccd0b0b",
+      "raison": "pas une image"
+    },
+    {
+      "url": "https://www.stephaneverfaillie.fr/web/image/website/1/logo/stephaneverfaillie?unique=ccd0b0b",
+      "raison": "pas une image"
+    },
+    {
+      "url": "https://www.stephaneverfaillie.fr/web/image/website.s_banner_default_image",
+      "raison": "pas une image"
+    },
+    {
+      "url": "https://www.stephaneverfaillie.fr/web/image/website/1/logo?unique=1843820",
+      "raison": "pas une image"
+    },
+    {
+      "url": "https://www.stephaneverfaillie.fr/web/image/website/1/logo?unique=1843820",
+      "raison": "pas une image"
+    },
+    {
+      "url": "https://www.stephaneverfaillie.fr/web/image/website/1/logo/stephaneverfaillie?unique=ccd0b0b",
+      "raison": "pas une image"
+    },
+    {
+      "url": "https://www.stephaneverfaillie.fr/web/image/website/1/logo/stephaneverfaillie?unique=ccd0b0b",
+      "raison": "pas une image"
+    },
+    {
+      "url": "https://www.stephaneverfaillie.fr/web/image/website.s_banner_default_image",
+      "raison": "pas une image"
+    },
+    {
+      "url": "https://www.stephaneverfaillie.fr/web/image/website.s_quotes_carousel_demo_image_0",
+      "raison": "pas une image"
+    },
+    {
+      "url": "https://www.stephaneverfaillie.fr/web/image/website/1/logo?unique=1843820",
+      "raison": "pas une image"
+    },
+    {
+      "url": "https://www.stephaneverfaillie.fr/web/image/website/1/logo?unique=1843820",
+      "raison": "pas une image"
+    },
+    {
+      "url": "https://www.stephaneverfaillie.fr/web/image/website/1/logo/stephaneverfaillie?unique=ccd0b0b",
+      "raison": "pas une image"
+    },
+    {
+      "url": "https://www.stephaneverfaillie.fr/web/image/website/1/logo/stephaneverfaillie?unique=ccd0b0b",
+      "raison": "pas une image"
+    },
+    {
+      "url": "https://www.stephaneverfaillie.fr/web/image/website.s_banner_default_image",
+      "raison": "pas une image"
+    },
+    {
+      "url": "https://www.stephaneverfaillie.fr/web/image/website/1/logo?unique=ccd0b0b",
+      "raison": "pas une image"
+    },
+    {
+      "url": "https://www.stephaneverfaillie.fr/web/image/website/1/logo/300x300?unique=ccd0b0b",
+      "raison": "pas une image"
+    },
+    {
+      "url": "https://stephaneverfaillie.odoo.com/web/image/300-8382878d/icons.png",
+      "raison": "icone"
+    },
+    {
+      "url": "https://www.jotform.com/uploads/page-builder/ww/019dde1d40a27c72a30c337df356bd2aabc5_google-reviews.svg?nc=1",
+      "raison": "icone"
+    },
+    {
+      "url": "https://www.stephaneverfaillie.fr/web/image/464-78b6e882/2.png",
+      "raison": "316 px de large"
+    },
+    {
+      "url": "https://www.stephaneverfaillie.fr/web/image/465-432dd325/3.png",
+      "raison": "318 px de large"
+    },
+    {
+      "url": "https://www.stephaneverfaillie.fr/web/image/466-956f8723/1.png",
+      "raison": "306 px de large"
+    },
+    {
+      "url": "https://www.stephaneverfaillie.fr/web/image/472-485c4009/intervention.svg",
+      "raison": "svg decoratif"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/a-/ALV-UjU6OHEY-aXxXbHh_eFbyTaWVYFkyTSOtpdqkLfI_NtjxZPdVYpP=s0",
+      "raison": "200 px de large"
+    },
+    {
+      "url": "https://www.stephaneverfaillie.fr/web/static/img/odoo_logo_tiny.png",
+      "raison": "icone"
+    },
+    {
+      "url": "https://www.stephaneverfaillie.fr/web_editor/shape/web_editor/Floats/07.svg?c1=%23104771&c2=%23FFFFFF&c3=%23C79D6D&c5=%23000000",
+      "raison": "svg decoratif"
+    },
+    {
+      "url": "https://www.stephaneverfaillie.fr/web_editor/shape/web_editor/Wavy/22.svg?c3=%23FFFFFF&flip=y",
+      "raison": "svg decoratif"
+    },
+    {
+      "url": "https://www.stephaneverfaillie.fr/html_editor/shape/html_builder/Wavy/14.svg?c1=%23104771&c3=%23C79D6D",
+      "raison": "svg decoratif"
+    },
+    {
+      "url": "https://www.stephaneverfaillie.fr/html_editor/shape/html_builder/Zigs/03.svg?c1=%23104771",
+      "raison": "svg decoratif"
+    },
+    {
+      "url": "https://www.stephaneverfaillie.fr/web/image/700-72457791/borger.png",
+      "raison": "153 px de large"
+    },
+    {
+      "url": "https://www.stephaneverfaillie.fr/web/image/694-645ca8a9/miss.png",
+      "raison": "288 px de large"
+    },
+    {
+      "url": "https://www.stephaneverfaillie.fr/web/image/695-62b669c7/pharmacie.png",
+      "raison": "250 px de large"
+    },
+    {
+      "url": "https://www.stephaneverfaillie.fr/html_editor/shape/html_builder/Origins/14_001.svg?c3=%23C79D6D&c4=%23ffffff",
+      "raison": "svg decoratif"
+    },
+    {
+      "url": "https://files.jotform.com/jufs/page-builder%2Fww%2F019dde1d40a27c72a30c337df356bd2aabc5_google-reviews.svg?md5=GE4-Jn3Lcwepf5E0_7zerg&expires=1794850852&nc=1",
+      "raison": "svg decoratif"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/a/ACg8ocK8RElxNQdc2Ln0N0U431mpuDM5QX2TkG1lpDD1S2E9S1fmIA=s0",
+      "raison": "meme image que https://lh3.googleusercontent.com/a/ACg8ocLMJNYtG6bliZNvo8eOA38xJeRlk0LDWeLSrzEf8tgI-YlLBw=s0 en 2560x2560"
+    },
+    {
+      "url": "https://www.stephaneverfaillie.fr/web/image/483-e94071d8/google.png",
+      "raison": "meme image que https://www.stephaneverfaillie.fr/web/image/482-e94071d8/google.png en 512x512"
+    },
+    {
+      "url": "https://www.stephaneverfaillie.fr/web/image/484-e94071d8/google.png",
+      "raison": "meme image que https://www.stephaneverfaillie.fr/web/image/482-e94071d8/google.png en 512x512"
+    },
+    {
+      "url": "https://www.stephaneverfaillie.fr/web/image/475-a3fdf61f/logopng.png",
+      "raison": "meme image que https://www.stephaneverfaillie.fr/web/image/474-ad50a79c/logopng.png en 320x316"
+    }
+  ]
+}

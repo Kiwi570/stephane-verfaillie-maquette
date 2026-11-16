@@ -1,0 +1,19 @@
+… fichiers
+  fait en 0 s
+… mesures
+  16/156
+  42/156
+  71/156
+  93/156
+  123/156
+  147/156
+  fait en 193 s
+… mesures:balayage
+  fait en 28 s
+… ecran
+  fait en 37 s
+
+Échecs : 3 · À regarder : 5 · Non lancé : 0
+Relancer seulement ce qui a échoué : node _audit/audit.mjs --complet --pages=/,/a-propos,/professionnels --seulement=fichiers,mesures
+Rapport : /home/claude/stephane-verfaillie-maquette/_audit/rapport/rapport.md (passe 20261116-194925-complet-cible-partiel)
+FIN 1

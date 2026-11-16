@@ -1,0 +1,19 @@
+{
+  "fuseau": "Europe/Paris",
+  "seuil_ferme_bientot": 30,
+  "regle_feries": "inconnu",
+  "feries": [
+    { "date": "2026-12-25", "nom": "Noël" }, { "date": "2026-12-26", "nom": "Saint-Étienne" },
+    { "date": "2027-01-01", "nom": "Jour de l'an" }, { "date": "2027-03-26", "nom": "Vendredi saint" },
+    { "date": "2027-03-29", "nom": "Lundi de Pâques" }, { "date": "2027-05-01", "nom": "Fête du Travail" },
+    { "date": "2027-05-06", "nom": "Ascension" }, { "date": "2027-05-08", "nom": "Victoire 1945" },
+    { "date": "2027-05-17", "nom": "Lundi de Pentecôte" }, { "date": "2027-07-14", "nom": "Fête nationale" },
+    { "date": "2027-08-15", "nom": "Assomption" }, { "date": "2027-11-01", "nom": "Toussaint" },
+    { "date": "2027-11-11", "nom": "Armistice" }, { "date": "2027-12-25", "nom": "Noël" }, { "date": "2027-12-26", "nom": "Saint-Étienne" }
+  ],
+  "adresses": [
+    { "id": "stephane", "nom": "Stéphane Verfaillie", "adresse": "9 rue de la Chapelle, 67280 Niederhaslach", "telephone": "06 87 92 84 90",
+      "semaine": { "lundi": ["08:00-19:00"], "mardi": ["08:00-19:00"], "mercredi": ["08:00-19:00"], "jeudi": ["08:00-19:00"], "vendredi": ["08:00-19:00"], "samedi": ["08:00-18:00"], "dimanche": [] },
+      "exceptions": [] }
+  ]
+}

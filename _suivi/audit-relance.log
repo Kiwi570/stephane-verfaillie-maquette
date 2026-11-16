@@ -1,0 +1,16 @@
+… fichiers
+  fait en 0 s
+… mesures
+  20/66
+  42/66
+  63/66
+  fait en 98 s
+… mesures:balayage
+  fait en 30 s
+… mouvement
+  fait en 122 s
+
+Échecs : 3 · À regarder : 21 · Non lancé : 0
+Relancer seulement ce qui a échoué : node _audit/audit.mjs --pages=/,/404,/professionnels --seulement=fichiers,mesures
+Rapport : /home/claude/stephane-verfaillie-maquette/_audit/rapport/rapport.md (passe 20261116-193734-standard-cible-partiel)
+FIN 1

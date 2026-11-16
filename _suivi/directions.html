@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trois directions, Stéphane Verfaillie</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@500;700;800&family=Funnel+Sans:wght@400;600&family=Sora:wght@600;700;800&family=Onest:wght@400;600&family=Martian+Mono:wght@500&family=Young+Serif&family=Hanken+Grotesk:wght@400;600&display=swap" rel="stylesheet">
+<style>
+/* VOICE planche de choix pour un client, calme et lisible
+   IDEA trois écrans d'ouverture du futur site, côte à côte
+   PICTURE chaque carte est un mini premier écran dans sa palette et ses polices
+   COLOUR fond neutre pour ne favoriser aucune direction
+   TYPE les polices de chaque direction, montrées en vrai */
+:root{color-scheme:light;--bg:#e9e8e4;--ink:#17181a}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 "Hanken Grotesk",system-ui,sans-serif;overflow-x:clip}
+header{padding:clamp(24px,4vw,48px) max(5vw,16px) 8px;max-width:1400px;margin:auto}
+header h1{font:600 clamp(26px,3vw,36px)/1.1 "Hanken Grotesk",sans-serif;margin:0 0 6px}
+header p{margin:0;color:#4a4b4f;max-width:70ch}
+.grille{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;padding:24px max(5vw,16px) 56px;max-width:1400px;margin:auto}
+@media(max-width:1000px){.grille{grid-template-columns:minmax(0,1fr)}}
+.dir{background:#fff;border-radius:14px;overflow:hidden;box-shadow:0 1px 0 rgba(0,0,0,.06),0 10px 30px rgba(0,0,0,.06);display:flex;flex-direction:column}
+.ecran{position:relative;aspect-ratio:4/3.1;padding:20px 22px;display:flex;flex-direction:column;justify-content:flex-end;overflow:hidden}
+.nav{position:absolute;top:14px;left:22px;right:22px;display:flex;justify-content:space-between;align-items:center;font-size:11px;opacity:.9}
+.nav b{font-size:12px}
+.nav span{padding:5px 10px;border-radius:99px;font-weight:600}
+.ecran h2{margin:0 0 10px;line-height:.98;position:relative;z-index:2}
+.ecran p{margin:0 0 12px;font-size:13px;max-width:30ch;position:relative;z-index:2}
+.btns{display:flex;gap:8px;flex-wrap:wrap;position:relative;z-index:2}
+.btns i{font-style:normal;font-size:12px;font-weight:600;padding:8px 12px;border-radius:99px}
+.prix{position:absolute;z-index:2}
+.info{padding:18px 22px 22px;display:grid;gap:12px}
+.info h3{margin:0;font:600 19px/1.2 "Hanken Grotesk",sans-serif}
+.info p{margin:0;font-size:14.5px;color:#3c3d41}
+.nuancier{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}
+.nuancier div{height:46px;border-radius:8px;border:1px solid rgba(0,0,0,.08)}
+.nuancier small{display:block;font-size:11.5px;color:#55565a;margin-top:4px;line-height:1.25}
+.typos{font-size:14px;color:#3c3d41}
+.typos strong{color:var(--ink)}
+.reco{display:inline-block;background:#17181a;color:#fff;font-size:12px;font-weight:600;border-radius:99px;padding:3px 10px;margin-left:6px;vertical-align:2px}
+
+/* A : Ça repart */
+.a .ecran{background:#f6f7f4;color:#15181c;font-family:"Funnel Sans",sans-serif}
+.a h2{font:800 clamp(36px,3.9vw,54px)/.95 "Funnel Display",sans-serif;letter-spacing:-.02em}
+.a h2 em{font-style:normal;color:#0a8f55}
+.a .nav span{background:#16c172;color:#15181c}
+.a .btns i:first-child{background:#16c172;color:#15181c}.a .btns i+i{border:1.5px solid #15181c}
+.a .photo{position:absolute;right:-30px;top:44px;width:56%;height:58%;border-radius:16px;background:radial-gradient(120% 90% at 30% 20%,#3a4049 0,#15181c 70%);box-shadow:0 20px 40px rgba(0,0,0,.25)}
+.a .photo::after{content:"";position:absolute;left:18%;bottom:22%;width:9px;height:9px;border-radius:50%;background:#16c172;box-shadow:0 0 14px 4px rgba(22,193,114,.7)}
+.a .prix{right:22px;bottom:22px;font:800 30px/1 "Funnel Display";background:#15181c;color:#f6f7f4;padding:10px 12px;border-radius:12px}
+.a .prix small{display:block;font:500 10px/1.2 "Funnel Sans";color:#9fe8c3}
+.a .statut{display:flex;align-items:center;gap:6px;font-size:11.5px;margin-bottom:10px;position:relative;z-index:2}
+.a .statut::before{content:"";width:8px;height:8px;border-radius:50%;background:#16c172}
+
+/* B : Vue éclatée */
+.b .ecran{background:#1b2733;color:#eef1f4;font-family:Onest,sans-serif}
+.b h2{font:800 clamp(30px,3.2vw,44px)/1 Sora,sans-serif;letter-spacing:-.03em}
+.b h2 em{font-style:normal;color:#ff6a3d}
+.b .nav span{background:#ff6a3d;color:#1b2733}
+.b .btns i:first-child{background:#ff6a3d;color:#1b2733}.b .btns i+i{border:1.5px solid #eef1f4}
+.b .eclate{position:absolute;right:6%;top:40px;width:46%;height:62%}
+.b .eclate div{position:absolute;left:0;right:0;height:18%;border:1.5px solid #9fb3c6;border-radius:6px;transform:skewY(-14deg)}
+.b .eclate div:nth-child(1){top:0;background:rgba(159,179,198,.08)}
+.b .eclate div:nth-child(2){top:22%;background:repeating-linear-gradient(90deg,transparent 0 9px,rgba(159,179,198,.35) 9px 11px)}
+.b .eclate div:nth-child(3){top:44%;border-color:#ff6a3d}
+.b .eclate div:nth-child(4){top:66%;background:rgba(159,179,198,.12)}
+.b .eclate span{position:absolute;right:-6px;font:500 9.5px/1 "Martian Mono";color:#ff6a3d;transform:translateX(100%)}
+.b .prix{left:22px;top:44px;font:500 11px/1.3 "Martian Mono";color:#9fb3c6}
+
+/* C : L'atelier du coin */
+.c .ecran{background:#1f3a32;color:#f3efe8;font-family:"Hanken Grotesk",sans-serif}
+.c h2{font:400 clamp(32px,3.4vw,46px)/1.02 "Young Serif",serif}
+.c h2 em{font-style:normal;color:#e08a6d}
+.c .nav span{background:#e08a6d;color:#1f3a32}
+.c .btns i:first-child{background:#e08a6d;color:#1f3a32}.c .btns i+i{border:1.5px solid #f3efe8}
+.c .carte{position:absolute;right:-10%;top:-6%;width:72%;aspect-ratio:1}
+.c .carte circle{fill:none}
+.c .prix{right:22px;bottom:24px;font:400 13px/1.3 "Hanken Grotesk";text-align:right;color:#f3efe8}
+.c .prix b{display:block;font:400 30px/1 "Young Serif";color:#e08a6d}
+</style>
+</head>
+<body>
+<header>
+  <h1>Stéphane Verfaillie : trois directions</h1>
+  <p>Chaque carte montre un premier écran dans la palette et les polices de la direction. Les textes et le tarif d'appel (dès 30 € tout compris) viennent du site actuel ; les photos seront créées avec Grok, et le portrait de Stéphane sera le vrai.</p>
+</header>
+<main class="grille">
+
+<section class="dir a">
+  <div class="ecran">
+    <div class="nav"><b>Stéphane Verfaillie</b><span>06 87 92 84 90</span></div>
+    <div class="photo" aria-hidden="true"></div>
+    <div class="statut">Joignable maintenant, jusqu'à 19 h</div>
+    <h2>Votre ordinateur <em>repart.</em></h2>
+    <p>Dépannage informatique à domicile, en atelier ou à distance, autour de Molsheim.</p>
+    <div class="btns"><i>Prendre rendez-vous</i><i>Les tarifs</i></div>
+    <div class="prix">30 €<small>tout compris, dès</small></div>
+  </div>
+  <div class="info">
+    <h3>A. « Ça repart »<span class="reco">Recommandée</span></h3>
+    <p>Clair, net et vivant. L'idée : le voyant vert d'un ordinateur qui redémarre. Il s'allume à l'intro, devient le statut « Joignable maintenant » et le voile entre les pages, et c'est tout. Grandes photos d'atelier, liste « tout compris » qui se coche, carte des 30 km qui se trace.</p>
+    <div class="nuancier">
+      <div style="background:#f6f7f4"></div><div style="background:#e9ece8"></div><div style="background:#15181c"></div><div style="background:#16c172"></div>
+    </div>
+    <div class="nuancier" style="margin-top:-8px"><small>Fond #F6F7F4</small><small>Second #E9ECE8</small><small>Graphite #15181C</small><small>Voyant #16C172</small></div>
+    <p class="typos"><strong>Funnel Display</strong> pour les titres, <strong>Funnel Sans</strong> pour le texte. Niveau visé : Dépannage 60 et Lemoy.</p>
+  </div>
+</section>
+
+<section class="dir b">
+  <div class="ecran">
+    <div class="nav"><b>Stéphane Verfaillie</b><span>06 87 92 84 90</span></div>
+    <div class="prix">DISQUE · RAM · CARTE MÈRE</div>
+    <div class="eclate" aria-hidden="true"><div></div><div><span>clavier</span></div><div><span>disque, données</span></div><div><span>carte mère</span></div></div>
+    <h2>Du disque dur<br>au <em>Wi-Fi.</em></h2>
+    <p>Un ingénieur qui ouvre la machine, trouve la panne et vous explique.</p>
+    <div class="btns"><i>Prendre rendez-vous</i><i>Les tarifs</i></div>
+  </div>
+  <div class="info">
+    <h3>B. « Vue éclatée »</h3>
+    <p>Technique, sombre et clair alternés. L'idée : un portable qui se démonte en couches au défilement, chaque pièce avec sa prestation et son vrai prix. Tarifs, zone et contact sur fond clair. Plus spectaculaire, plus long à construire.</p>
+    <div class="nuancier">
+      <div style="background:#1b2733"></div><div style="background:#243443"></div><div style="background:#f1f2ef"></div><div style="background:#ff6a3d"></div>
+    </div>
+    <div class="nuancier" style="margin-top:-8px"><small>Ardoise #1B2733</small><small>Second #243443</small><small>Clair #F1F2EF</small><small>Signal #FF6A3D</small></div>
+    <p class="typos"><strong>Sora</strong> pour les titres, <strong>Onest</strong> pour le texte, <strong>Martian Mono</strong> pour les pièces et les prix. Niveau visé : Agence AE.</p>
+  </div>
+</section>
+
+<section class="dir c">
+  <div class="ecran">
+    <div class="nav"><b>Stéphane Verfaillie</b><span>06 87 92 84 90</span></div>
+    <svg class="carte" viewBox="0 0 200 200" aria-hidden="true">
+      <circle cx="100" cy="100" r="80" stroke="#e08a6d" stroke-width="1.2" stroke-dasharray="3 4"/>
+      <circle cx="100" cy="100" r="40" stroke="rgba(243,239,232,.25)" stroke-width="1"/>
+      <circle cx="100" cy="100" r="4" fill="#e08a6d"/>
+      <circle cx="68" cy="100" r="3" fill="#f3efe8"/>
+      <g fill="rgba(243,239,232,.55)"><circle cx="150" cy="92" r="2"/><circle cx="96" cy="140" r="2"/><circle cx="92" cy="58" r="2"/><circle cx="60" cy="130" r="2"/><circle cx="130" cy="150" r="2"/><circle cx="150" cy="60" r="2"/></g>
+    </svg>
+    <h2>Votre informaticien, <em>à 30 km</em> de chez vous.</h2>
+    <p>Atelier à Niederhaslach, interventions à domicile autour de Molsheim.</p>
+    <div class="btns"><i>Prendre rendez-vous</i><i>Ma commune</i></div>
+    <div class="prix"><b>30 €</b>tout compris, dès</div>
+  </div>
+  <div class="info">
+    <h3>C. « L'atelier du coin »</h3>
+    <p>Chaleureux et local. L'idée : la proximité. L'intro trace le cercle des 30 km autour de Molsheim et pose l'atelier ; « Ma commune » donne la distance réelle. Vert sapin des Vosges et grès rose des églises d'Alsace.</p>
+    <div class="nuancier">
+      <div style="background:#1f3a32"></div><div style="background:#2a4a40"></div><div style="background:#efede6"></div><div style="background:#e08a6d"></div>
+    </div>
+    <div class="nuancier" style="margin-top:-8px"><small>Sapin #1F3A32</small><small>Second #2A4A40</small><small>Pierre #EFEDE6</small><small>Grès #E08A6D</small></div>
+    <p class="typos"><strong>Young Serif</strong> pour les titres, <strong>Hanken Grotesk</strong> pour le texte. Niveau visé : Château Haut-Piquat.</p>
+  </div>
+</section>
+
+</main>
+</body>
+</html>

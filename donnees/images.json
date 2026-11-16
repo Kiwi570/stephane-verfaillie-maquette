@@ -1,0 +1,1072 @@
+{
+  "logo": {
+    "nom": "logo",
+    "source": "recu/stephaneverfaillie.png",
+    "role": "logo",
+    "alt": "Stéphane Verfaillie, ingénieur informatique",
+    "grok": false,
+    "mention": null,
+    "beaute": null,
+    "empreinte": "b4905337df0b34bd",
+    "ratio": null,
+    "largeurs": [
+      240
+    ],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "logo-240.webp"
+    ],
+    "poids": {
+      "logo-240.webp": 9698
+    },
+    "media": "c.media({ nom: 'logo', alt: \"Stéphane Verfaillie, ingénieur informatique\", sizes: '240px' })"
+  },
+  "stephane": {
+    "nom": "stephane",
+    "source": "recu/profileroune.png",
+    "role": "portrait",
+    "alt": "Stéphane Verfaillie, souriant, en chemise orange",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "a62b2036655002af",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "53% 42%",
+    "sujet": {
+      "x": 16.9,
+      "y": 0,
+      "l": 73,
+      "h": 78
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.31,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.21,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.15,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.04,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 690,
+      "height": 690,
+      "source": [
+        690,
+        690
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "690 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,14 fois (source de 690 px après recadrage)"
+    ],
+    "fichiers": [
+      "stephane-480.webp",
+      "stephane-640.webp",
+      "stephane-784.webp"
+    ],
+    "poids": {
+      "stephane-480.webp": 29610,
+      "stephane-640.webp": 41532,
+      "stephane-784.webp": 45556
+    },
+    "media": "c.media({ nom: 'stephane', alt: \"Stéphane Verfaillie, souriant, en chemise orange\", cadrage: '53% 42%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '1 / 1' })"
+  },
+  "grok/accueil-ouverture": {
+    "nom": "grok/accueil-ouverture",
+    "source": "recu/grok/accueil-ouverture.png",
+    "role": "carte-service",
+    "alt": "Portable fermé sur un établi clair près d'une fenêtre, son voyant vert allumé",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "bfc7c1f86864e898",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "41% 34%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 96.2,
+      "h": 78.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.61,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.16,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 2000,
+      "source": [
+        1600,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/accueil-ouverture-480.webp",
+      "grok/accueil-ouverture-640.webp",
+      "grok/accueil-ouverture-784.webp"
+    ],
+    "poids": {
+      "grok/accueil-ouverture-480.webp": 32440,
+      "grok/accueil-ouverture-640.webp": 51230,
+      "grok/accueil-ouverture-784.webp": 69306
+    },
+    "media": "c.media({ nom: 'grok/accueil-ouverture', alt: \"Portable fermé sur un établi clair près d'une fenêtre, son voyant vert allumé\", cadrage: '41% 34%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 5' })"
+  },
+  "grok/facon-domicile": {
+    "nom": "grok/facon-domicile",
+    "source": "recu/grok/facon-domicile.png",
+    "role": "carte-service",
+    "alt": "Portable fermé sur la table basse d'un salon",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "6a2303e52ac0cb20",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "57% 43%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.15,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.04,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.01,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1300,
+      "height": 1950,
+      "source": [
+        1300,
+        1950
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "floue"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "grok/facon-domicile-480.webp",
+      "grok/facon-domicile-640.webp",
+      "grok/facon-domicile-784.webp"
+    ],
+    "poids": {
+      "grok/facon-domicile-480.webp": 15788,
+      "grok/facon-domicile-640.webp": 22046,
+      "grok/facon-domicile-784.webp": 28120
+    },
+    "media": "c.media({ nom: 'grok/facon-domicile', alt: \"Portable fermé sur la table basse d'un salon\", cadrage: '57% 43%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '2 / 3' })"
+  },
+  "grok/facon-atelier": {
+    "nom": "grok/facon-atelier",
+    "source": "recu/grok/facon-atelier.png",
+    "role": "carte-service",
+    "alt": "Portable ouvert par en dessous sur un établi, sous une lampe",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "5ebda90599560f04",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "69% 62%",
+    "sujet": {
+      "x": 9.1,
+      "y": 12.5,
+      "l": 86.4,
+      "h": 84.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.05,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.04,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1300,
+      "height": 1950,
+      "source": [
+        1300,
+        1950
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/facon-atelier-480.webp",
+      "grok/facon-atelier-640.webp",
+      "grok/facon-atelier-784.webp"
+    ],
+    "poids": {
+      "grok/facon-atelier-480.webp": 30094,
+      "grok/facon-atelier-640.webp": 41044,
+      "grok/facon-atelier-784.webp": 52324
+    },
+    "media": "c.media({ nom: 'grok/facon-atelier', alt: \"Portable ouvert par en dessous sur un établi, sous une lampe\", cadrage: '69% 62%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '2 / 3' })"
+  },
+  "grok/facon-distance": {
+    "nom": "grok/facon-distance",
+    "source": "recu/grok/facon-distance.png",
+    "role": "carte-service",
+    "alt": "Casque micro posé sur un bureau, près d'une fenêtre",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "98af5a04ca562527",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "56% 56%",
+    "sujet": {
+      "x": 0,
+      "y": 12.5,
+      "l": 95.5,
+      "h": 87.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.33,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.14,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.03,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.01,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1300,
+      "height": 1950,
+      "source": [
+        1300,
+        1950
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "floue"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "grok/facon-distance-480.webp",
+      "grok/facon-distance-640.webp",
+      "grok/facon-distance-784.webp"
+    ],
+    "poids": {
+      "grok/facon-distance-480.webp": 13968,
+      "grok/facon-distance-640.webp": 20048,
+      "grok/facon-distance-784.webp": 25214
+    },
+    "media": "c.media({ nom: 'grok/facon-distance', alt: \"Casque micro posé sur un bureau, près d'une fenêtre\", cadrage: '56% 56%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '2 / 3' })"
+  },
+  "grok/compris-circuit": {
+    "nom": "grok/compris-circuit",
+    "source": "recu/grok/compris-circuit.jpg",
+    "role": "section-fond",
+    "alt": "Carte électronique en gros plan, un voyant vert allumé",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "f3ee981fd3fd8924",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "60% 58%",
+    "sujet": {
+      "x": 31.3,
+      "y": 18.2,
+      "l": 43.8,
+      "h": 68.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.64,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.63,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.49,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.42,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 1000,
+      "source": [
+        1500,
+        1000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,28 fois (source de 1500 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/compris-circuit-640.webp",
+      "grok/compris-circuit-1280.webp",
+      "grok/compris-circuit-1920.webp"
+    ],
+    "poids": {
+      "grok/compris-circuit-640.webp": 20080,
+      "grok/compris-circuit-1280.webp": 43756,
+      "grok/compris-circuit-1920.webp": 70242
+    },
+    "media": "c.media({ nom: 'grok/compris-circuit', alt: \"Carte électronique en gros plan, un voyant vert allumé\", cadrage: '60% 58%', sizes: '100vw' })"
+  },
+  "grok/pros-reseau": {
+    "nom": "grok/pros-reseau",
+    "source": "recu/grok/pros-reseau.jpg",
+    "role": "vignette",
+    "alt": "Switch réseau et câbles bleus sur un bureau",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "3f857f942bd22a2a",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "53% 49%",
+    "sujet": {
+      "x": 6.3,
+      "y": 0,
+      "l": 93.7,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 1000,
+      "source": [
+        1500,
+        1000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/pros-reseau-480.webp",
+      "grok/pros-reseau-640.webp",
+      "grok/pros-reseau-800.webp"
+    ],
+    "poids": {
+      "grok/pros-reseau-480.webp": 18830,
+      "grok/pros-reseau-640.webp": 25632,
+      "grok/pros-reseau-800.webp": 32882
+    },
+    "media": "c.media({ nom: 'grok/pros-reseau', alt: \"Switch réseau et câbles bleus sur un bureau\", cadrage: '53% 49%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "grok/apprendre": {
+    "nom": "grok/apprendre",
+    "source": "recu/grok/apprendre.png",
+    "role": "vignette",
+    "alt": "Portable ouvert sur une table, un carnet et une tasse à côté",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "d449fe4e66b55c87",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "60% 57%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 1000,
+      "source": [
+        1500,
+        1000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/apprendre-480.webp",
+      "grok/apprendre-640.webp",
+      "grok/apprendre-800.webp"
+    ],
+    "poids": {
+      "grok/apprendre-480.webp": 11954,
+      "grok/apprendre-640.webp": 16312,
+      "grok/apprendre-800.webp": 20962
+    },
+    "media": "c.media({ nom: 'grok/apprendre', alt: \"Portable ouvert sur une table, un carnet et une tasse à côté\", cadrage: '60% 57%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "grok/appel-fond": {
+    "nom": "grok/appel-fond",
+    "source": "recu/grok/appel-fond.jpg",
+    "role": "section-fond",
+    "alt": "Mur bleu nuit, une plante et une tasse dans la lumière du soir",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "be82550696772449",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "51% 67%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.2,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.12,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.1,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 1000,
+      "source": [
+        1500,
+        1000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,28 fois (source de 1500 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/appel-fond-640.webp",
+      "grok/appel-fond-1280.webp",
+      "grok/appel-fond-1920.webp"
+    ],
+    "poids": {
+      "grok/appel-fond-640.webp": 13494,
+      "grok/appel-fond-1280.webp": 29664,
+      "grok/appel-fond-1920.webp": 48938
+    },
+    "media": "c.media({ nom: 'grok/appel-fond', alt: \"Mur bleu nuit, une plante et une tasse dans la lumière du soir\", cadrage: '51% 67%', sizes: '100vw' })"
+  },
+  "grok/services-bandeau": {
+    "nom": "grok/services-bandeau",
+    "source": "recu/grok/services-bandeau.jpg",
+    "role": "ouverture",
+    "alt": "Tournevis, disque dur et petites pièces sur un établi en bois",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "08dcd351f6eb9839",
+    "ratio": "21:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640
+      ],
+      "cadrage": "50% 53%"
+    },
+    "cadrage": "68% 53%",
+    "sujet": {
+      "x": 3.1,
+      "y": 0,
+      "l": 96.9,
+      "h": 92.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.1,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1680,
+      "height": 720,
+      "source": [
+        1680,
+        720
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "version téléphone sans 1080 px (source trop petite)",
+      "agrandie 1,14 fois (source de 1680 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/services-bandeau-640.webp",
+      "grok/services-bandeau-1280.webp",
+      "grok/services-bandeau-1920.webp",
+      "grok/services-bandeau-mobile-640.webp"
+    ],
+    "poids": {
+      "grok/services-bandeau-640.webp": 14380,
+      "grok/services-bandeau-1280.webp": 31190,
+      "grok/services-bandeau-1920.webp": 49402,
+      "grok/services-bandeau-mobile-640.webp": 17760
+    },
+    "media": "c.media({ nom: 'grok/services-bandeau', alt: \"Tournevis, disque dur et petites pièces sur un établi en bois\", cadrage: '68% 53%', cadrageMobile: '50% 53%', sizes: '100vw', priorite: true })"
+  },
+  "grok/pros-ouverture": {
+    "nom": "grok/pros-ouverture",
+    "source": "recu/grok/pros-ouverture.png",
+    "role": "ouverture",
+    "alt": "Bureau au matin : un écran éteint, une plante, une fenêtre",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "1e6ea4ef98e43eaa",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "41% 48%"
+    },
+    "cadrage": "32% 41%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.06,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/pros-ouverture-640.webp",
+      "grok/pros-ouverture-1280.webp",
+      "grok/pros-ouverture-1920.webp",
+      "grok/pros-ouverture-mobile-640.webp",
+      "grok/pros-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/pros-ouverture-640.webp": 14470,
+      "grok/pros-ouverture-1280.webp": 31788,
+      "grok/pros-ouverture-1920.webp": 51618,
+      "grok/pros-ouverture-mobile-640.webp": 26862,
+      "grok/pros-ouverture-mobile-1080.webp": 50880
+    },
+    "media": "c.media({ nom: 'grok/pros-ouverture', alt: \"Bureau au matin : un écran éteint, une plante, une fenêtre\", cadrage: '32% 41%', cadrageMobile: '41% 48%', sizes: '100vw', priorite: true })"
+  },
+  "grok/apropos-atelier": {
+    "nom": "grok/apropos-atelier",
+    "source": "recu/grok/apropos-atelier.jpg",
+    "role": "ouverture",
+    "alt": "Coin d'atelier : établi, outils au mur, tiroirs à pièces et lampe",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "940bd5092df7fdea",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "60% 59%"
+    },
+    "cadrage": "44% 60%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 93.8,
+      "h": 94.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "bas",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/apropos-atelier-640.webp",
+      "grok/apropos-atelier-1280.webp",
+      "grok/apropos-atelier-1920.webp",
+      "grok/apropos-atelier-mobile-640.webp",
+      "grok/apropos-atelier-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/apropos-atelier-640.webp": 30396,
+      "grok/apropos-atelier-1280.webp": 62514,
+      "grok/apropos-atelier-1920.webp": 98338,
+      "grok/apropos-atelier-mobile-640.webp": 31538,
+      "grok/apropos-atelier-mobile-1080.webp": 58534
+    },
+    "media": "c.media({ nom: 'grok/apropos-atelier', alt: \"Coin d'atelier : établi, outils au mur, tiroirs à pièces et lampe\", cadrage: '44% 60%', cadrageMobile: '60% 59%', sizes: '100vw', priorite: true })"
+  },
+  "grok/rdv-mallette": {
+    "nom": "grok/rdv-mallette",
+    "source": "recu/grok/rdv-mallette.jpg",
+    "role": "vignette",
+    "alt": "Trousse de tournevis de précision ouverte à côté d'un portable",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "46c461a8acfa8e0d",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "35% 37%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 81.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.49,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.28,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 1000,
+      "source": [
+        1500,
+        1000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/rdv-mallette-480.webp",
+      "grok/rdv-mallette-640.webp",
+      "grok/rdv-mallette-800.webp"
+    ],
+    "poids": {
+      "grok/rdv-mallette-480.webp": 18478,
+      "grok/rdv-mallette-640.webp": 29006,
+      "grok/rdv-mallette-800.webp": 39510
+    },
+    "media": "c.media({ nom: 'grok/rdv-mallette', alt: \"Trousse de tournevis de précision ouverte à côté d'un portable\", cadrage: '35% 37%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "grok/page-404": {
+    "nom": "grok/page-404",
+    "source": "recu/grok/page-404.png",
+    "role": "404",
+    "alt": "Portable éteint et câble d'alimentation débranché sur une table",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "e8c2079406099784",
+    "ratio": "16:9",
+    "largeurs": [
+      800,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "56% 26%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 72.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.69,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.23,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.08,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/page-404-800.webp",
+      "grok/page-404-1600.webp"
+    ],
+    "poids": {
+      "grok/page-404-800.webp": 32388,
+      "grok/page-404-1600.webp": 79398
+    },
+    "media": "c.media({ nom: 'grok/page-404', alt: \"Portable éteint et câble d'alimentation débranché sur une table\", cadrage: '56% 26%', sizes: '100vw', ratio: '16 / 9' })"
+  }
+}

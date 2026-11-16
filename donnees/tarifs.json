@@ -1,0 +1,60 @@
+{
+  "familles": [
+    { "id": "depannage", "nom": "Dépannage", "icone": "cle", "lignes": [
+      { "nom": "Intervention à domicile, forfait 30 minutes", "prix": "30 €" },
+      { "nom": "Intervention à domicile, forfait 1 heure", "prix": "50 €" },
+      { "nom": "Dépannage en atelier, forfait 1 heure", "prix": "40 €" },
+      { "nom": "Réparation de matériel, avec ou sans remplacement de composants", "prix": "Sur devis" },
+      { "nom": "Forfait déplacement", "prix": "5 à 25 €" } ] },
+    { "id": "maintenance", "nom": "Maintenance", "icone": "balai", "lignes": [
+      { "nom": "Récupération de données", "prix": "100 à 150 €" },
+      { "nom": "Suppression de virus", "prix": "Inclus" },
+      { "nom": "Nettoyage physique (démontage et remontage)", "prix": "Inclus" },
+      { "nom": "Nettoyage logiciel et optimisation des performances", "prix": "Inclus" } ] },
+    { "id": "installation", "nom": "Installation", "icone": "prise", "lignes": [
+      { "nom": "Installation de logiciels, système d'exploitation compris", "prix": "Inclus" },
+      { "nom": "Installation de périphériques et d'imprimantes", "prix": "Inclus" },
+      { "nom": "Installation de composants internes (RAM, disque dur…)", "prix": "Inclus" },
+      { "nom": "Conseil, commande et montage de PC sur mesure", "prix": "50 € + pièces sur devis" },
+      { "nom": "Installation de box internet, réseau et Wi-Fi", "prix": "Inclus" },
+      { "nom": "Installation de tout appareil (TV, smartphone, tablette…)", "prix": "Inclus" },
+      { "nom": "Configuration de messagerie et d'e-mails", "prix": "Inclus" } ] },
+    { "id": "formations", "nom": "Formations", "icone": "livre", "lignes": [
+      { "nom": "Initiation à l'informatique", "prix": "75 €/h" },
+      { "nom": "Apprentissage des bonnes pratiques", "prix": "75 €/h" },
+      { "nom": "Formation bureautique", "prix": "75 €/h" },
+      { "nom": "Maintenance (PC, site web…)", "prix": "Sur devis" },
+      { "nom": "Autres formations", "prix": "Sur demande" } ] },
+    { "id": "web", "nom": "Sites et applis", "icone": "fenetre", "lignes": [
+      { "nom": "Création de site web", "prix": "Sur devis" },
+      { "nom": "Création de page de réseau social", "prix": "Sur devis" },
+      { "nom": "Création d'application mobile", "prix": "Sur devis" },
+      { "nom": "Accompagnement, maintenance et mise à jour de site web", "prix": "Sur devis" } ] },
+    { "id": "pros", "nom": "Professionnels", "icone": "reseau", "lignes": [
+      { "nom": "Mise en place de réseau d'entreprise", "prix": "Sur devis" },
+      { "nom": "Création et gestion de site web professionnel", "prix": "Sur devis" },
+      { "nom": "Gestion d'un parc informatique", "prix": "Sur devis" },
+      { "nom": "Commande et installation de matériel", "prix": "Sur devis" } ] }
+  ],
+  "inclus": [
+    "Suppression de virus",
+    "Nettoyage physique, démontage et remontage",
+    "Nettoyage logiciel et optimisation",
+    "Installation de logiciels et du système",
+    "Périphériques et imprimantes",
+    "Composants internes : RAM, disque dur…",
+    "Box internet, réseau et Wi-Fi",
+    "TV, smartphone, tablette",
+    "Messagerie et e-mails"
+  ],
+  "formules": [
+    { "id": "domicile-30", "nom": "À domicile, 30 minutes", "prix": 30, "deplacement": true },
+    { "id": "domicile-60", "nom": "À domicile, 1 heure", "prix": 50, "deplacement": true },
+    { "id": "atelier-60", "nom": "À l'atelier, 1 heure", "prix": 40, "deplacement": false }
+  ],
+  "options": [
+    { "id": "donnees", "nom": "Récupération de données", "min": 100, "max": 150 },
+    { "id": "pc", "nom": "PC sur mesure (conseil, commande, montage)", "min": 50, "max": 50, "note": "+ pièces sur devis" }
+  ],
+  "deplacement": { "min": 5, "max": 25 }
+}

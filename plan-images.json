@@ -1,0 +1,178 @@
+[
+ {
+  "source": "recu/stephaneverfaillie.png",
+  "nom": "logo",
+  "role": "logo",
+  "alt": "Stéphane Verfaillie, ingénieur informatique"
+ },
+ {
+  "source": "recu/profileroune.png",
+  "nom": "stephane",
+  "role": "portrait",
+  "ratio": "1:1",
+  "cadrage": [
+   53,
+   42
+  ],
+  "beaute": 3,
+  "alt": "Stéphane Verfaillie, souriant, en chemise orange"
+ },
+ {
+  "source": "recu/grok/accueil-ouverture.png",
+  "nom": "grok/accueil-ouverture",
+  "role": "carte-service",
+  "ratio": "4:5",
+  "beaute": 4,
+  "page": "Accueil",
+  "emplacement": "ouverture, grande carte photo à droite du titre",
+  "priorite": "Indispensable",
+  "alt": "Portable fermé sur un établi clair près d'une fenêtre, son voyant vert allumé",
+  "consigne_scene": "A light oak workbench by a bright window in a small, tidy home workshop: a closed, unbranded dark grey laptop seen at a three-quarter angle, its tiny green power light glowing on the front edge, a precision tool kit in a fabric roll, a neatly coiled black cable and a ceramic mug, airy and calm, plenty of soft daylight, the lower third of the frame plain and uncluttered wood; a single workbench corner, not a big repair shop, nothing like a store, nobody in the frame",
+  "largeurs": [
+   480,
+   640,
+   784
+  ]
+ },
+ {
+  "source": "recu/grok/facon-domicile.png",
+  "nom": "grok/facon-domicile",
+  "role": "carte-service",
+  "beaute": 4,
+  "page": "Accueil",
+  "emplacement": "carte « Chez vous »",
+  "priorite": "Conseillée",
+  "alt": "Portable fermé sur la table basse d'un salon",
+  "consigne_scene": "A bright living room in a family house: an unbranded laptop open on a wooden coffee table, seen from behind and slightly above, its screen turned away from the camera, a small zipped tool pouch and a cable beside it, a plant and a sofa softly blurred behind, morning light, nobody in the frame"
+ },
+ {
+  "source": "recu/grok/facon-atelier.png",
+  "nom": "grok/facon-atelier",
+  "role": "carte-service",
+  "beaute": 4,
+  "page": "Accueil",
+  "emplacement": "carte « À l'atelier »",
+  "priorite": "Conseillée",
+  "alt": "Portable ouvert par en dessous sur un établi, sous une lampe",
+  "consigne_scene": "Close view of a small workbench under a warm desk lamp: an unbranded laptop lying upside down with its bottom cover removed, showing a clean internal layout of a fan, a battery and a green circuit board, a small magnetic tray holding tiny screws, a muted grey-green anti-static mat, nobody in the frame"
+ },
+ {
+  "source": "recu/grok/facon-distance.png",
+  "nom": "grok/facon-distance",
+  "role": "carte-service",
+  "beaute": 4,
+  "page": "Accueil",
+  "emplacement": "carte « À distance »",
+  "priorite": "Conseillée",
+  "alt": "Casque micro posé sur un bureau, près d'une fenêtre",
+  "consigne_scene": "A quiet home desk by a window: an unbranded laptop open, its screen seen at a steep angle showing only a soft blurred glow so nothing is readable, a smartphone lying face down beside it, a cup of tea and a pair of reading glasses, calm afternoon light, nobody in the frame"
+ },
+ {
+  "source": "recu/grok/compris-circuit.jpg",
+  "nom": "grok/compris-circuit",
+  "role": "section-fond",
+  "zone_texte": "gauche",
+  "beaute": 5,
+  "page": "Accueil",
+  "emplacement": "bande « Tout compris » (fond sombre)",
+  "priorite": "Indispensable",
+  "alt": "Carte électronique en gros plan, un voyant vert allumé",
+  "consigne_scene": "Macro photograph of a computer motherboard in a dark room, fine copper traces and tiny components catching a soft raking light, one small green LED glowing, very shallow depth of field, the subject on the right, deep calm dark blue empty space on the left half"
+ },
+ {
+  "source": "recu/grok/pros-reseau.jpg",
+  "nom": "grok/pros-reseau",
+  "role": "vignette",
+  "beaute": 4,
+  "page": "Accueil",
+  "emplacement": "section Professionnels (aussi page Professionnels)",
+  "priorite": "Conseillée",
+  "alt": "Switch réseau et câbles bleus sur un bureau",
+  "consigne_scene": "A small, tidy network cabinet on the wall of a small local business back office: a plain unbranded network switch with neatly bundled grey and blue cables, a small router with green status lights, a clean white wall, soft daylight, nobody in the frame"
+ },
+ {
+  "source": "recu/grok/apprendre.png",
+  "nom": "grok/apprendre",
+  "role": "vignette",
+  "beaute": 4,
+  "page": "Accueil",
+  "emplacement": "section Formations et sites web",
+  "priorite": "Conseillée",
+  "alt": "Portable ouvert sur une table, un carnet et une tasse à côté",
+  "consigne_scene": "Seen from behind and slightly above, over a shoulder: an older adult's hands resting on the keyboard of an unbranded laptop on a kitchen table, a younger helper's hand pointing at the keyboard, the screen out of focus and turned away, a plain notebook with a pencil, warm morning light, no face visible"
+ },
+ {
+  "source": "recu/grok/appel-fond.jpg",
+  "nom": "grok/appel-fond",
+  "role": "section-fond",
+  "zone_texte": "gauche",
+  "beaute": 4,
+  "page": "Accueil",
+  "emplacement": "appel final (fond sombre, aussi pages Services et À propos)",
+  "priorite": "Conseillée",
+  "alt": "Mur bleu nuit, une plante et une tasse dans la lumière du soir",
+  "consigne_scene": "Evening on a home desk in a dim room: an unbranded laptop half open, its keyboard softly backlit, a tiny green power light glowing, the subject in the right third, deep calm night-blue shadows over the left half, nobody in the frame"
+ },
+ {
+  "source": "recu/grok/services-bandeau.jpg",
+  "nom": "grok/services-bandeau",
+  "role": "ouverture",
+  "ratio": "21:9",
+  "mobile": "4:5",
+  "beaute": 4,
+  "page": "Services et tarifs",
+  "emplacement": "ouverture, bandeau sous le grand titre",
+  "priorite": "Indispensable",
+  "alt": "Tournevis, disque dur et petites pièces sur un établi en bois",
+  "consigne_scene": "Knolling flat-lay seen from directly above on a matte night-blue surface: computer repair items arranged in neat parallel rows, two memory modules, a plain unbranded solid-state drive, a 2.5-inch hard drive, a precision tool kit, a small brush, a coiled cable, a thermal paste syringe and a few tiny screws in a magnetic dish, evenly spaced, soft even light, the whole arrangement centred with a clear margin all around"
+ },
+ {
+  "source": "recu/grok/pros-ouverture.png",
+  "source_mobile": "recu/grok/pros-ouverture-mobile.jpg",
+  "nom": "grok/pros-ouverture",
+  "role": "ouverture",
+  "mobile": true,
+  "zone_texte": "gauche",
+  "beaute": 4,
+  "page": "Professionnels",
+  "emplacement": "ouverture plein cadre",
+  "priorite": "Indispensable",
+  "alt": "Bureau au matin : un écran éteint, une plante, une fenêtre",
+  "consigne_scene": "Early morning in a small local business office: two tidy desks with plain unbranded desktop computers, their screens dark or turned away, a small network cabinet in the corner with tiny green lights, a printer, large windows with soft light, calm and orderly, nobody in the frame"
+ },
+ {
+  "source": "recu/grok/apropos-atelier.jpg",
+  "source_mobile": "recu/grok/apropos-atelier-mobile.jpg",
+  "nom": "grok/apropos-atelier",
+  "role": "ouverture",
+  "mobile": true,
+  "zone_texte": "bas",
+  "beaute": 4,
+  "page": "À propos",
+  "emplacement": "image qui s'ouvre en plein écran sous le titre",
+  "priorite": "Indispensable",
+  "alt": "Coin d'atelier : établi, outils au mur, tiroirs à pièces et lampe",
+  "consigne_scene": "A small home workshop corner in an old Alsatian village house: a sturdy wooden workbench under a small window with a deep sandstone sill, a pegboard of neatly hung tools, an unbranded desktop computer tower with its side panel off, a desk lamp, warm late-afternoon light; a single workbench corner, not a big repair shop, nothing like a store, nobody in the frame"
+ },
+ {
+  "source": "recu/grok/rdv-mallette.jpg",
+  "nom": "grok/rdv-mallette",
+  "role": "vignette",
+  "beaute": 4,
+  "page": "Rendez-vous",
+  "emplacement": "coordonnées et horaires",
+  "priorite": "Conseillée",
+  "alt": "Trousse de tournevis de précision ouverte à côté d'un portable",
+  "consigne_scene": "A neatly packed technician's tool case open on a light wooden table: precision tools in foam slots, a spare cable, a plain USB drive, an anti-static wrist strap, soft daylight from the side, ready to leave for a home visit, nobody in the frame"
+ },
+ {
+  "source": "recu/grok/page-404.png",
+  "nom": "grok/page-404",
+  "role": "404",
+  "beaute": 4,
+  "page": "404",
+  "emplacement": "image en tête de page",
+  "priorite": "Conseillée",
+  "alt": "Portable éteint et câble d'alimentation débranché sur une table"
+ }
+]

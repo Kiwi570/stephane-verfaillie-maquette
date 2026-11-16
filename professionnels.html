@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Professionnels : réseau, parc informatique et sites web</title>
+<meta name="description" content="Réseau d&#39;entreprise, gestion de parc, site web professionnel, commande de matériel : un informaticien de proximité autour de Molsheim, sur devis.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://stephane-verfaillie-maquette.vercel.app/professionnels">
+<style>:root{--fond:#f6f7f4;--texte:#15181c;--voile-fond:#0f2d4a;--ouverture-fond:#0f2d4a;--menu-fond:#f6f7f4}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/polices/funnel-display.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#f6f7f4">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Stéphane Verfaillie">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Professionnels : réseau, parc informatique et sites web">
+<meta property="og:description" content="Réseau d&#39;entreprise, gestion de parc, site web professionnel, commande de matériel : un informaticien de proximité autour de Molsheim, sur devis.">
+<meta property="og:url" content="https://stephane-verfaillie-maquette.vercel.app/professionnels">
+<meta property="og:image" content="https://stephane-verfaillie-maquette.vercel.app/assets/partage/professionnels-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Informatique des professionnels autour de Molsheim">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Stéphane Verfaillie, dépannage informatique","url":"https://stephane-verfaillie-maquette.vercel.app/","telephone":"+33687928490","email":"stephane.verfaillie@gmail.com","address":{"@type":"PostalAddress","streetAddress":"9 rue de la Chapelle","postalCode":"67280","addressLocality":"Niederhaslach","addressCountry":"FR"},"areaServed":"Molsheim et 30 km alentour","priceRange":"dès 30 €","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"08:00","closes":"19:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"08:00","closes":"18:00"}],"description":"Dépannage informatique à domicile, en atelier ou à distance, pour particuliers et professionnels, autour de Molsheim."}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><svg class="voile-marche" viewBox="0 0 120 120" width="56" height="56"><path d="M38.8 34.6 A32 32 0 1 0 81.2 34.6"/><path d="M60 22 V58"/></svg><span data-voile-libelle>Professionnels</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <svg class="ouverture-marche" viewBox="0 0 120 120" width="120" height="120" data-ouverture-objet><circle class="om-fond" cx="60" cy="60" r="58"/><path class="om-anneau" d="M38.8 34.6 A32 32 0 1 0 81.2 34.6" pathLength="1"/><path class="om-trait" d="M60 22 V58" pathLength="1"/><circle class="om-led" cx="60" cy="104" r="4"/></svg>
+  <span class="ouverture-trait"></span>
+  <p class="ouverture-nom">Stéphane Verfaillie</p>
+  <p class="ouverture-ligne">Dépannage informatique</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil">
+      <img src="/assets/images/logo.svg" alt="" width="44" height="44"><span class="entete-nom">Stéphane Verfaillie<small>Ingénieur informatique</small></span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/services" data-libelle="Services et tarifs">Services et tarifs</a></li><li><a href="/professionnels" data-libelle="Professionnels" aria-current="page">Professionnels</a></li><li><a href="/a-propos" data-libelle="À propos">À propos</a></li><li><a href="/rendez-vous" data-libelle="Rendez-vous">Rendez-vous</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="entete-tel" href="tel:+33687928490" aria-label="Appeler 06 87 92 84 90"><span class="voyant" data-statut-voyant aria-hidden="true"></span><span>06 87 92 84 90</span></a>
+      <a class="bouton bouton--entete" href="/rendez-vous" data-libelle="Rendez-vous">Prendre rendez-vous</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/services" class="menu-lien" data-libelle="Services et tarifs">Services et tarifs</a></li><li style="--i:2"><a href="/professionnels" class="menu-lien" data-libelle="Professionnels" aria-current="page">Professionnels</a></li><li style="--i:3"><a href="/a-propos" class="menu-lien" data-libelle="À propos">À propos</a></li><li style="--i:4"><a href="/rendez-vous" class="menu-lien" data-libelle="Rendez-vous">Rendez-vous</a></li></ul>
+  <p><a class="bouton" href="tel:+33687928490">Appeler 06 87 92 84 90</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="pros-tete" id="debut">
+  <figure class="media pros-tete-media" data-grok style="--cadrage:60% 50%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/pros-ouverture-mobile-640.webp 640w, /assets/images/grok/pros-ouverture-mobile-1080.webp 1080w" sizes="100vw">
+    <img src="/assets/images/grok/pros-ouverture-1280.webp" srcset="/assets/images/grok/pros-ouverture-640.webp 640w, /assets/images/grok/pros-ouverture-1280.webp 1280w, /assets/images/grok/pros-ouverture-1920.webp 1920w" sizes="100vw" alt="Bureau au matin : un écran éteint, une plante, une fenêtre" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  <div class="pros-balayage" data-effet="balayage" aria-hidden="true"></div>
+  <div class="conteneur pros-tete-contenu">
+    <p class="surtitre surtitre--clair"><span class="voyant" aria-hidden="true"></span>Professionnels</p>
+    <h1 data-anime="lignes">Un informaticien pour votre entreprise.</h1>
+    <p class="masque-ecran-tres-bas" data-anime>Réseau, parc informatique, site web, matériel : chaque demande est chiffrée sur devis, autour de Molsheim.</p>
+    <p class="pros-tete-actions" data-anime>
+      <a href="/rendez-vous?lieu=pro" class="bouton" data-libelle="Rendez-vous" data-action-principale data-survol="magnetique">Demander un devis</a>
+      <span class="etiquette etiquette--clair" data-info-cle>Molsheim et 30 km autour</span>
+    </p>
+  </div>
+  <div class="pros-badge" data-iris-centre="disque"><svg class="pros-badge-marche" viewBox="0 0 120 120" aria-hidden="true"><path d="M38.8 34.6 A32 32 0 1 0 81.2 34.6"/><path d="M60 22 V58"/></svg><span>Sur devis</span></div>
+</section>
+<section class="offres section" id="offres">
+  <div class="conteneur">
+    <div class="section-tete"><h2 data-anime="lignes">Ce que je prends en charge.</h2></div>
+    <div class="offres-grille" data-anime="cascade">
+      <article class="offre">
+        <span class="offre-icone"><svg class="icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-fx="trace"><rect x="9" y="2.5" width="6" height="5" rx="1"/><rect x="2.5" y="16.5" width="6" height="5" rx="1"/><rect x="15.5" y="16.5" width="6" height="5" rx="1"/><path d="M12 7.5V12M5.5 16.5V12h13v4.5"/></svg></span>
+        <h3>Réseau d&#39;entreprise</h3>
+        <p>Mise en place du réseau, box, switch, répéteurs et Wi-Fi.</p>
+        <p class="offre-prix" data-prix>Sur devis</p>
+      </article><article class="offre">
+        <span class="offre-icone"><svg class="icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-fx="trace"><circle cx="8" cy="8" r="3"/><circle cx="16.5" cy="9" r="2.5"/><path d="M2.5 20a5.5 5.5 0 0 1 11 0M13.5 20a4 4 0 0 1 8 0"/></svg></span>
+        <h3>Parc informatique</h3>
+        <p>Gestion et maintenance des postes de l&#39;entreprise.</p>
+        <p class="offre-prix" data-prix>Sur devis</p>
+      </article><article class="offre">
+        <span class="offre-icone"><svg class="icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-fx="trace"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18"/><circle cx="6.5" cy="6.5" r=".6"/><circle cx="9" cy="6.5" r=".6"/><path d="M7 13h6M7 16h10"/></svg></span>
+        <h3>Site web professionnel</h3>
+        <p>Création, gestion et mise à jour de votre site.</p>
+        <p class="offre-prix" data-prix>Sur devis</p>
+      </article><article class="offre">
+        <span class="offre-icone"><svg class="icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-fx="trace"><rect x="3" y="4" width="18" height="12" rx="1.5"/><path d="M8 20h8M12 16v4"/></svg></span>
+        <h3>Matériel</h3>
+        <p>Commande et installation des ordinateurs et périphériques.</p>
+        <p class="offre-prix" data-prix>Sur devis</p>
+      </article>
+    </div>
+  </div>
+</section>
+<section class="refs section fond-2" id="references">
+  <div class="conteneur refs-grille">
+    <div>
+      <h2 data-anime="lignes">Ils ont fait appel à moi.</h2>
+      <p data-anime>Commerces, santé, artisans : quelques entreprises du secteur.</p>
+      <ol class="refs-liste" data-anime="cascade"><li>BC Aménagement</li><li>Miss Thérèse couture</li><li>Pharmacie des Rohan</li><li>Proxi Niederhaslach</li><li>Kinésithérapie du Stufrain</li><li>Abakom</li></ol>
+    </div>
+    <figure class="media refs-media" data-grok data-anime="rideau" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/pros-reseau-800.webp" srcset="/assets/images/grok/pros-reseau-480.webp 480w, /assets/images/grok/pros-reseau-640.webp 640w, /assets/images/grok/pros-reseau-800.webp 800w" sizes="(max-width: 760px) 92vw, 42vw" alt="Switch réseau et câbles bleus sur un bureau" width="800" height="533" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  </div>
+</section>
+<section class="deroule section" id="deroule">
+  <div class="conteneur">
+    <div class="section-tete"><h2 data-anime="lignes">Comment ça se passe.</h2></div>
+    <div class="deroule-piste">
+      <svg class="deroule-trait" viewBox="0 0 1000 20" preserveAspectRatio="none" aria-hidden="true" data-fx="trace" data-visuel><path d="M10 10 H990" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="6 8"/></svg>
+      <ol class="deroule-etapes" data-anime="cascade">
+        <li><span class="deroule-num"><svg class="icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3.5h3.5l1.8 4.5-2.3 1.5a11 11 0 0 0 6.5 6.5l1.5-2.3 4.5 1.8V19a1.5 1.5 0 0 1-1.6 1.5A16.5 16.5 0 0 1 3.5 5.1 1.5 1.5 0 0 1 5 3.5Z"/></svg><b>1</b></span><h3>Vous décrivez le besoin</h3><p>Par téléphone ou avec le formulaire.</p></li><li><span class="deroule-num"><svg class="icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 2.5h9l4 4V21.5H6z"/><path d="M15 2.5v4h4M9 12h7M9 16h5"/></svg><b>2</b></span><h3>Je chiffre</h3><p>Vous recevez un devis.</p></li><li><span class="deroule-num"><svg class="icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 6.5a4 4 0 1 0 3 6.7L21 16.7 18.7 19l-1.4-1.4-1.4 1.4-1.4-1.4 1.6-1.6-1.9-1.9A4 4 0 0 0 14.5 6.5Z"/><circle cx="8.6" cy="9.6" r="1.2"/></svg><b>3</b></span><h3>J&#39;interviens</h3><p>Sur place ou à distance.</p></li>
+      </ol>
+    </div>
+    <aside class="encart" data-anime><svg class="icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5v-15Z"/><path d="M4 20.5A2.5 2.5 0 0 0 6.5 23H20"/><path d="M9 8h7"/></svg><div><h3>Former vos équipes</h3><p>Initiation, bonnes pratiques, bureautique : 75 € l&#39;heure.</p></div><a href="/services?famille=formations#tarifs" class="lien-fleche" data-libelle="Services et tarifs">Voir tous les tarifs</a></aside>
+  </div>
+</section>
+<section class="appel" id="appel">
+  <figure class="media appel-media" data-grok data-fx="zoom" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/compris-circuit-1280.webp" srcset="/assets/images/grok/compris-circuit-640.webp 640w, /assets/images/grok/compris-circuit-1280.webp 1280w, /assets/images/grok/compris-circuit-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 60vw" alt="Carte électronique en gros plan, un voyant vert allumé" width="1280" height="853" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  <div class="conteneur appel-contenu">
+    <svg class="appel-marche" viewBox="0 0 120 120" aria-hidden="true"><path d="M38.8 34.6 A32 32 0 1 0 81.2 34.6"/><path d="M60 22 V58"/></svg>
+    <h2 data-anime="lignes">Un projet, une panne au bureau ?</h2>
+    <p data-anime>Décrivez le besoin, je vous réponds avec un devis.</p>
+    <p class="appel-actions">
+      <a href="/rendez-vous?lieu=pro" class="bouton" data-libelle="Rendez-vous" data-survol="magnetique">Demander un devis</a>
+      <a class="bouton bouton--contour-clair" href="tel:+33687928490" aria-label="Appeler 06 87 92 84 90"><svg class="icone icone--bouton" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3.5h3.5l1.8 4.5-2.3 1.5a11 11 0 0 0 6.5 6.5l1.5-2.3 4.5 1.8V19a1.5 1.5 0 0 1-1.6 1.5A16.5 16.5 0 0 1 3.5 5.1 1.5 1.5 0 0 1 5 3.5Z"/></svg>06 87 92 84 90</a>
+    </p>
+    <p class="statut statut--clair" data-statut><span class="voyant voyant--vit" data-effet="voyant" aria-hidden="true"></span><span data-statut-texte>Lun-ven 8 h-19 h · sam 8 h-18 h</span></p>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <img src="/assets/images/logo-pied.png" alt="Stéphane Verfaillie, Ingénieur informatique" width="120" height="119" loading="lazy">
+      <p>Dépannage informatique à domicile, à l&#39;atelier ou à distance, pour particuliers et professionnels. Molsheim et 30 km autour.</p>
+    </div>
+    <div>
+      <p class="pied-titre">Contact</p>
+      <p><a href="tel:+33687928490">06 87 92 84 90</a><br><a href="mailto:stephane.verfaillie@gmail.com">stephane.verfaillie@gmail.com</a><br>9 rue de la Chapelle, 67280 Niederhaslach<br><span class="pied-doux">Atelier à Niederhaslach, sur rendez-vous</span></p>
+    </div>
+    <div>
+      <p class="pied-titre">Horaires</p>
+      <p>Lundi au vendredi : 8 h – 19 h<br>Samedi : 8 h – 18 h<br>Dimanche : fermé</p>
+      <p class="pied-statut" data-statut hidden><span class="voyant" aria-hidden="true"></span><span data-statut-texte></span></p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p class="pied-titre">Sommaire</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/services" data-libelle="Services et tarifs">Services et tarifs</a></li><li><a href="/professionnels" data-libelle="Professionnels" aria-current="page">Professionnels</a></li><li><a href="/a-propos" data-libelle="À propos">À propos</a></li><li><a href="/rendez-vous" data-libelle="Rendez-vous">Rendez-vous</a></li><li><a href="#haut" data-sans-transition>Retour en haut</a></li></ul>
+    </nav>
+  </div>
+  <div class="conteneur pied-bas"><p>Mentions légales : à compléter · Politique de confidentialité : à compléter</p><p>Maquette de démonstration : les formulaires sont simulés, rien n&#39;est envoyé.</p><p>© Stéphane Verfaillie</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33687928490" aria-label="Appeler 06 87 92 84 90">Appeler</a>
+  <a class="bouton" href="/rendez-vous" data-libelle="Rendez-vous">Rendez-vous</a>
+</div>
+<script type="application/json" data-horaires>{"fuseau":"Europe/Paris","seuil_ferme_bientot":30,"regle_feries":"inconnu","feries":[{"date":"2026-12-25","nom":"Noël"},{"date":"2026-12-26","nom":"Saint-Étienne"},{"date":"2027-01-01","nom":"Jour de l'an"},{"date":"2027-03-26","nom":"Vendredi saint"},{"date":"2027-03-29","nom":"Lundi de Pâques"},{"date":"2027-05-01","nom":"Fête du Travail"},{"date":"2027-05-06","nom":"Ascension"},{"date":"2027-05-08","nom":"Victoire 1945"},{"date":"2027-05-17","nom":"Lundi de Pentecôte"},{"date":"2027-07-14","nom":"Fête nationale"},{"date":"2027-08-15","nom":"Assomption"},{"date":"2027-11-01","nom":"Toussaint"},{"date":"2027-11-11","nom":"Armistice"},{"date":"2027-12-25","nom":"Noël"},{"date":"2027-12-26","nom":"Saint-Étienne"}],"adresses":[{"id":"stephane","nom":"Stéphane Verfaillie","adresse":"9 rue de la Chapelle, 67280 Niederhaslach","telephone":"06 87 92 84 90","semaine":{"lundi":["08:00-19:00"],"mardi":["08:00-19:00"],"mercredi":["08:00-19:00"],"jeudi":["08:00-19:00"],"vendredi":["08:00-19:00"],"samedi":["08:00-18:00"],"dimanche":[]},"exceptions":[]}]}</script>
+</body>
+</html>

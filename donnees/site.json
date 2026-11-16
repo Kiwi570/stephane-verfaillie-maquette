@@ -1,0 +1,19 @@
+{
+  "nom": "Stéphane Verfaillie",
+  "metier": "Ingénieur informatique",
+  "adresse": "https://stephane-verfaillie-maquette.vercel.app",
+  "siteActuel": "stephaneverfaillie.fr",
+  "version": 1,
+  "langues": ["fr"],
+  "navigation": ["accueil", "services", "professionnels", "a-propos", "rendez-vous"],
+  "actionEntete": { "page": "rendez-vous" },
+  "couleurs": { "fond": "#f6f7f4", "texte": "#15181c", "voile": "#0f2d4a", "ouverture": "#0f2d4a", "menu": "#f6f7f4", "theme": "#f6f7f4" },
+  "formeVoile": "iris",
+  "contact": {
+    "telephone": "06 87 92 84 90", "telephoneLien": "+33687928490", "email": "stephane.verfaillie@gmail.com",
+    "adresse": "9 rue de la Chapelle, 67280 Niederhaslach", "atelier": "Atelier à Niederhaslach, sur rendez-vous"
+  },
+  "polices": ["/assets/polices/funnel-display.woff2"],
+  "imagePartage": "grok/accueil-ouverture-640.webp",
+  "curseur": false
+}

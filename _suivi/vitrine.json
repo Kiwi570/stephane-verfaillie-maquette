@@ -1,0 +1,153 @@
+{
+ "explication": "Vitrine du projet : des ouvertures de la bibliothèque à dépasser, jamais à imiter (ni leur idée, ni leur mise en page).",
+ "activite": [
+  "numérique"
+ ],
+ "metier": "dépannage informatique",
+ "besoin": [],
+ "ton": [
+  "chaleureux"
+ ],
+ "univers": [],
+ "ambiance": [],
+ "concept": [],
+ "depot": "stephane-verfaillie-maquette",
+ "ecartees": [],
+ "ouvertures": [
+  {
+   "rang": 1,
+   "id": "depannage-60-maquette/debut",
+   "maquette": "depannage-60-maquette",
+   "client": "dépannage plomberie et électricité, rénovation, autour de Longueil-Sainte-Marie (Oise)",
+   "metier": "plombier électricien dépanneur",
+   "activite": [
+    "bâtiment"
+   ],
+   "favorite": true,
+   "pourquoi": [
+    "même métier",
+    "clair et sombre alternés (33 % sombre)",
+    "fil-conducteur"
+   ],
+   "lumiere": "mixte",
+   "part_sombre": 33,
+   "note_section": 5,
+   "note_maquette": 87,
+   "titre": "Fuite, panne, WC bouché ? On s’en occupe.",
+   "description": "« Fuite, panne, WC bouché ? On s'en occupe. » : robinet dont l'eau coule en canvas, tuyau et câble dans la marge",
+   "familles": [
+    "fil-conducteur"
+   ],
+   "plan": null,
+   "module": null,
+   "fiche": "sections/depannage-60-maquette/debut.json",
+   "capture": "medias/depannage-60-maquette/debut-p1440.jpg",
+   "video": "medias/depannage-60-maquette/debut-p720.mp4",
+   "en_ligne": "https://depannage-60-maquette.vercel.app"
+  },
+  {
+   "rang": 2,
+   "id": "budgetravaux-maquette/debut",
+   "maquette": "budgetravaux-maquette",
+   "client": "dépannage plomberie, chauffage, électricité et rénovation tous corps d'état dans l'Oise",
+   "metier": "plombier dépanneur",
+   "activite": [
+    "bâtiment"
+   ],
+   "favorite": false,
+   "pourquoi": [
+    "même métier",
+    "clair et sombre alternés (73 % sombre)",
+    "lumiere-pointeur",
+    "webgl",
+    "masque"
+   ],
+   "lumiere": "mixte",
+   "part_sombre": 73,
+   "note_section": 5,
+   "note_maquette": 87,
+   "titre": "Une fuite. Une panne. On arrive.",
+   "description": "« Une fuite. Une panne. On arrive. » : lampe torche WebGL qui suit la souris et révèle le réseau de tuyaux et de câbles derrière le mur, ticket du premier forfait",
+   "familles": [
+    "lumiere-pointeur",
+    "webgl",
+    "masque"
+   ],
+   "plan": null,
+   "module": null,
+   "fiche": "sections/budgetravaux-maquette/debut.json",
+   "capture": "medias/budgetravaux-maquette/debut-p1440.jpg",
+   "video": "medias/budgetravaux-maquette/debut-p720.mp4",
+   "en_ligne": "https://budgetravaux-maquette.vercel.app"
+  },
+  {
+   "rang": 3,
+   "id": "lien-numerique-solidaire-maquette/heros",
+   "maquette": "lien-numerique-solidaire-maquette",
+   "client": "accompagnement informatique à domicile pour seniors et publics fragiles à Marseille, en service à la personne",
+   "metier": "aide informatique à domicile",
+   "activite": [
+    "services-b2b",
+    "formation"
+   ],
+   "favorite": false,
+   "pourquoi": [
+    "même métier",
+    "ambiance chaleureux",
+    "style clair (13 % sombre)",
+    "webgl",
+    "fil-conducteur",
+    "masque"
+   ],
+   "lumiere": "clair",
+   "part_sombre": 13,
+   "note_section": 4,
+   "note_maquette": 86,
+   "titre": "Héros à la persienne",
+   "description": "Ouverture orchestrée : le fil rouge s'écrit, la photo se dévoile, le prix 30 € se coupe en deux et laisse 15 € ; fond papier traversé par une lumière de persienne en WebGL brut (un triangle plein écran, 30 i/s), remplacée par un dégradé CSS sur tactile, en économie de données et en mode confort.",
+   "familles": [
+    "webgl",
+    "fil-conducteur",
+    "masque"
+   ],
+   "plan": null,
+   "module": "fil-conducteur",
+   "fiche": "sections/lien-numerique-solidaire-maquette/heros.json",
+   "capture": "medias/lien-numerique-solidaire-maquette/heros-p1440.jpg",
+   "video": "medias/lien-numerique-solidaire-maquette/heros-p720.mp4",
+   "en_ligne": "https://lien-numerique-solidaire-maquette.vercel.app"
+  },
+  {
+   "rang": 4,
+   "id": "djludoremix-maquette/debut",
+   "maquette": "djludoremix-maquette",
+   "client": "DJ Ludo Remix, DJ, son, lumière et laser dans le Gard",
+   "metier": "DJ animateur de soirées",
+   "activite": [
+    "spectacle"
+   ],
+   "favorite": false,
+   "pourquoi": [
+    "style sombre (100 % sombre)",
+    "masque",
+    "trait-qui-se-dessine"
+   ],
+   "lumiere": "sombre",
+   "part_sombre": 100,
+   "note_section": 5,
+   "note_maquette": 84,
+   "titre": "Votre soirée en plein feux",
+   "description": "Une seule grande scène épinglée : une photo de Ludo à la fois dans le noir, une poursuite qu'on promène (seule après 6 s), un second faisceau, des lasers et des points disco sur canvas, des coupes au flash entre les photos, et un pupitre de cinq faders qui calcule la formule la moins chère et son vrai prix.",
+   "familles": [
+    "masque",
+    "trait-qui-se-dessine"
+   ],
+   "plan": "objet-unique",
+   "module": null,
+   "fiche": "sections/djludoremix-maquette/debut.json",
+   "capture": "medias/djludoremix-maquette/debut-p1440.jpg",
+   "video": "medias/djludoremix-maquette/debut-p720.mp4",
+   "en_ligne": "https://djludoremix-maquette.vercel.app"
+  }
+ ]
+}

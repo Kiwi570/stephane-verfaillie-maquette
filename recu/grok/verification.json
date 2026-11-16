@@ -1,0 +1,315 @@
+{
+  "date": "2026-11-16T18:24:33.624Z",
+  "plan": "/home/claude/stephane-verfaillie-maquette/plan-images.json",
+  "attendus": 15,
+  "recus": 15,
+  "planches": [
+    "planche.jpg"
+  ],
+  "inconnus": [],
+  "manquants": [],
+  "a_regenerer": [
+    {
+      "fichier": "accueil-ouverture.jpg",
+      "problemes": [
+        "ratio 0.8 au lieu de 784×1168"
+      ],
+      "consigne_corrigee": "A light oak workbench by a bright window in a small, tidy home workshop: a closed, unbranded dark grey laptop seen at a three-quarter angle, its tiny green power light glowing on the front edge, a precision tool kit in a fabric roll, a neatly coiled black cable and a ceramic mug, airy and calm, plenty of soft daylight, the lower third of the frame plain and uncluttered wood; a single workbench corner, not a big repair shop, nothing like a store, nobody in the frame. Vertical composition, aspect ratio 4:5, main subject well inside the central area with generous margins on every side, so the image can be cropped. Warm documentary editorial photography, 35mm lens, calm, precise and reassuring mood, palette of off-white, pale warm grey, deep night blue and one tiny green power-light glow, soft daylight from a side window, tactile light oak wood, brushed aluminium, matte black electronics and fine copper circuit traces, set in a village house in Alsace, France on an ordinary weekday, shallow depth of field, soft film grain, calm and reassuring, generous negative space. No brand logo on devices, no apple logo, no readable screen, no interface, no code on screen, no hologram, no futuristic overlay, no visible face. Screen turned away from the camera, or showing only a soft abstract glow with no interface; plain unbranded devices. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "services-bandeau.jpg",
+      "problemes": [
+        "ratio 2.33 au lieu de 1168×784"
+      ],
+      "consigne_corrigee": "Knolling flat-lay seen from directly above on a matte night-blue surface: computer repair items arranged in neat parallel rows, two memory modules, a plain unbranded solid-state drive, a 2.5-inch hard drive, a precision tool kit, a small brush, a coiled cable, a thermal paste syringe and a few tiny screws in a magnetic dish, evenly spaced, soft even light, the whole arrangement centred with a clear margin all around. Panoramic composition, aspect ratio 21:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Warm documentary editorial photography, 35mm lens, calm, precise and reassuring mood, palette of off-white, pale warm grey, deep night blue and one tiny green power-light glow, soft daylight from a side window, tactile light oak wood, brushed aluminium, matte black electronics and fine copper circuit traces, set in a village house in Alsace, France on an ordinary weekday, shallow depth of field, soft film grain, calm and reassuring, generous negative space. No brand logo on devices, no apple logo, no readable screen, no interface, no code on screen, no hologram, no futuristic overlay, no visible face. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "pros-ouverture.jpg",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "consigne_corrigee": "Early morning in a small local business office: two tidy desks with plain unbranded desktop computers, their screens dark or turned away, a small network cabinet in the corner with tiny green lights, a printer, large windows with soft light, calm and orderly, nobody in the frame. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Warm documentary editorial photography, 35mm lens, calm, precise and reassuring mood, palette of off-white, pale warm grey, deep night blue and one tiny green power-light glow, soft daylight from a side window, tactile light oak wood, brushed aluminium, matte black electronics and fine copper circuit traces, set in a village house in Alsace, France on an ordinary weekday, shallow depth of field, soft film grain, calm and reassuring, generous negative space. No brand logo on devices, no apple logo, no readable screen, no interface, no code on screen, no hologram, no futuristic overlay, no visible face. Screen turned away from the camera, or showing only a soft abstract glow with no interface; plain unbranded devices. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "pros-ouverture-mobile.jpg",
+      "problemes": [
+        "ratio 0.56 au lieu de 784×1168"
+      ],
+      "consigne_corrigee": "Early morning in a small local business office: two tidy desks with plain unbranded desktop computers, their screens dark or turned away, a small network cabinet in the corner with tiny green lights, a printer, large windows with soft light, calm and orderly, nobody in the frame. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Warm documentary editorial photography, 35mm lens, calm, precise and reassuring mood, palette of off-white, pale warm grey, deep night blue and one tiny green power-light glow, soft daylight from a side window, tactile light oak wood, brushed aluminium, matte black electronics and fine copper circuit traces, set in a village house in Alsace, France on an ordinary weekday, shallow depth of field, soft film grain, calm and reassuring, generous negative space. No brand logo on devices, no apple logo, no readable screen, no interface, no code on screen, no hologram, no futuristic overlay, no visible face. Screen turned away from the camera, or showing only a soft abstract glow with no interface; plain unbranded devices. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "apropos-atelier.jpg",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "consigne_corrigee": "A small home workshop corner in an old Alsatian village house: a sturdy wooden workbench under a small window with a deep sandstone sill, a pegboard of neatly hung tools, an unbranded desktop computer tower with its side panel off, a desk lamp, warm late-afternoon light; a single workbench corner, not a big repair shop, nothing like a store, nobody in the frame. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, the lower third stays dark and simple for text overlay. Warm documentary editorial photography, 35mm lens, calm, precise and reassuring mood, palette of off-white, pale warm grey, deep night blue and one tiny green power-light glow, soft daylight from a side window, tactile light oak wood, brushed aluminium, matte black electronics and fine copper circuit traces, set in a village house in Alsace, France on an ordinary weekday, shallow depth of field, soft film grain, calm and reassuring, generous negative space. No brand logo on devices, no apple logo, no readable screen, no interface, no code on screen, no hologram, no futuristic overlay, no visible face. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "apropos-atelier-mobile.jpg",
+      "problemes": [
+        "ratio 0.56 au lieu de 784×1168"
+      ],
+      "consigne_corrigee": "A small home workshop corner in an old Alsatian village house: a sturdy wooden workbench under a small window with a deep sandstone sill, a pegboard of neatly hung tools, an unbranded desktop computer tower with its side panel off, a desk lamp, warm late-afternoon light; a single workbench corner, not a big repair shop, nothing like a store, nobody in the frame. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Warm documentary editorial photography, 35mm lens, calm, precise and reassuring mood, palette of off-white, pale warm grey, deep night blue and one tiny green power-light glow, soft daylight from a side window, tactile light oak wood, brushed aluminium, matte black electronics and fine copper circuit traces, set in a village house in Alsace, France on an ordinary weekday, shallow depth of field, soft film grain, calm and reassuring, generous negative space. No brand logo on devices, no apple logo, no readable screen, no interface, no code on screen, no hologram, no futuristic overlay, no visible face. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "page-404.jpg",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "consigne_corrigee": "An unplugged power cable hanging over the edge of a wooden table, its plug dangling in mid-air above the floor, a plain wall behind, soft warm light, minimalist and slightly humorous, nobody in the frame. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Warm documentary editorial photography, 35mm lens, calm, precise and reassuring mood, palette of off-white, pale warm grey, deep night blue and one tiny green power-light glow, soft daylight from a side window, tactile light oak wood, brushed aluminium, matte black electronics and fine copper circuit traces, set in a village house in Alsace, France on an ordinary weekday, shallow depth of field, soft film grain, calm and reassuring, generous negative space. No brand logo on devices, no apple logo, no readable screen, no interface, no code on screen, no hologram, no futuristic overlay, no visible face. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    }
+  ],
+  "images": [
+    {
+      "nom": "grok/accueil-ouverture",
+      "attendu": "accueil-ouverture.jpg",
+      "fichier": "accueil-ouverture.jpg",
+      "priorite": "Indispensable",
+      "problemes": [
+        "ratio 0.8 au lieu de 784×1168"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1200,
+      "hauteur": 1500,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "A light oak workbench by a bright window in a small, tidy home workshop: a closed, unbranded dark grey laptop seen at a three-quarter angle, its tiny green power light glowing on the front edge, a precision tool kit in a fabric roll, a neatly coiled black cable and a ceramic mug, airy and calm, plenty of soft daylight, the lower third of the frame plain and uncluttered wood; a single workbench corner, not a big repair shop, nothing like a store, nobody in the frame. Vertical composition, aspect ratio 4:5, main subject well inside the central area with generous margins on every side, so the image can be cropped. Warm documentary editorial photography, 35mm lens, calm, precise and reassuring mood, palette of off-white, pale warm grey, deep night blue and one tiny green power-light glow, soft daylight from a side window, tactile light oak wood, brushed aluminium, matte black electronics and fine copper circuit traces, set in a village house in Alsace, France on an ordinary weekday, shallow depth of field, soft film grain, calm and reassuring, generous negative space. No brand logo on devices, no apple logo, no readable screen, no interface, no code on screen, no hologram, no futuristic overlay, no visible face. Screen turned away from the camera, or showing only a soft abstract glow with no interface; plain unbranded devices. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/facon-domicile",
+      "attendu": "facon-domicile.jpg",
+      "fichier": "facon-domicile.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [],
+      "largeur": 1000,
+      "hauteur": 1500,
+      "boites": []
+    },
+    {
+      "nom": "grok/facon-atelier",
+      "attendu": "facon-atelier.jpg",
+      "fichier": "facon-atelier.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1000,
+      "hauteur": 1500,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/facon-distance",
+      "attendu": "facon-distance.jpg",
+      "fichier": "facon-distance.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [],
+      "largeur": 1000,
+      "hauteur": 1500,
+      "boites": []
+    },
+    {
+      "nom": "grok/compris-circuit",
+      "attendu": "compris-circuit.jpg",
+      "fichier": "compris-circuit.jpg",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [],
+      "largeur": 1500,
+      "hauteur": 1000,
+      "boites": []
+    },
+    {
+      "nom": "grok/pros-reseau",
+      "attendu": "pros-reseau.jpg",
+      "fichier": "pros-reseau.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [],
+      "largeur": 1500,
+      "hauteur": 1000,
+      "boites": []
+    },
+    {
+      "nom": "grok/apprendre",
+      "attendu": "apprendre.jpg",
+      "fichier": "apprendre.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1500,
+      "hauteur": 1000,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/appel-fond",
+      "attendu": "appel-fond.jpg",
+      "fichier": "appel-fond.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [],
+      "largeur": 1500,
+      "hauteur": 1000,
+      "boites": []
+    },
+    {
+      "nom": "grok/services-bandeau",
+      "attendu": "services-bandeau.jpg",
+      "fichier": "services-bandeau.jpg",
+      "priorite": "Indispensable",
+      "problemes": [
+        "ratio 2.33 au lieu de 1168×784"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1680,
+      "hauteur": 720,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "Knolling flat-lay seen from directly above on a matte night-blue surface: computer repair items arranged in neat parallel rows, two memory modules, a plain unbranded solid-state drive, a 2.5-inch hard drive, a precision tool kit, a small brush, a coiled cable, a thermal paste syringe and a few tiny screws in a magnetic dish, evenly spaced, soft even light, the whole arrangement centred with a clear margin all around. Panoramic composition, aspect ratio 21:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Warm documentary editorial photography, 35mm lens, calm, precise and reassuring mood, palette of off-white, pale warm grey, deep night blue and one tiny green power-light glow, soft daylight from a side window, tactile light oak wood, brushed aluminium, matte black electronics and fine copper circuit traces, set in a village house in Alsace, France on an ordinary weekday, shallow depth of field, soft film grain, calm and reassuring, generous negative space. No brand logo on devices, no apple logo, no readable screen, no interface, no code on screen, no hologram, no futuristic overlay, no visible face. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/pros-ouverture",
+      "attendu": "pros-ouverture.jpg",
+      "fichier": "pros-ouverture.jpg",
+      "priorite": "Indispensable",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1600,
+      "hauteur": 900,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "Early morning in a small local business office: two tidy desks with plain unbranded desktop computers, their screens dark or turned away, a small network cabinet in the corner with tiny green lights, a printer, large windows with soft light, calm and orderly, nobody in the frame. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Warm documentary editorial photography, 35mm lens, calm, precise and reassuring mood, palette of off-white, pale warm grey, deep night blue and one tiny green power-light glow, soft daylight from a side window, tactile light oak wood, brushed aluminium, matte black electronics and fine copper circuit traces, set in a village house in Alsace, France on an ordinary weekday, shallow depth of field, soft film grain, calm and reassuring, generous negative space. No brand logo on devices, no apple logo, no readable screen, no interface, no code on screen, no hologram, no futuristic overlay, no visible face. Screen turned away from the camera, or showing only a soft abstract glow with no interface; plain unbranded devices. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/pros-ouverture",
+      "mobile": true,
+      "attendu": "pros-ouverture-mobile.jpg",
+      "fichier": "pros-ouverture-mobile.jpg",
+      "priorite": "Indispensable",
+      "problemes": [
+        "ratio 0.56 au lieu de 784×1168"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1080,
+      "hauteur": 1920,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "Early morning in a small local business office: two tidy desks with plain unbranded desktop computers, their screens dark or turned away, a small network cabinet in the corner with tiny green lights, a printer, large windows with soft light, calm and orderly, nobody in the frame. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Warm documentary editorial photography, 35mm lens, calm, precise and reassuring mood, palette of off-white, pale warm grey, deep night blue and one tiny green power-light glow, soft daylight from a side window, tactile light oak wood, brushed aluminium, matte black electronics and fine copper circuit traces, set in a village house in Alsace, France on an ordinary weekday, shallow depth of field, soft film grain, calm and reassuring, generous negative space. No brand logo on devices, no apple logo, no readable screen, no interface, no code on screen, no hologram, no futuristic overlay, no visible face. Screen turned away from the camera, or showing only a soft abstract glow with no interface; plain unbranded devices. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/apropos-atelier",
+      "attendu": "apropos-atelier.jpg",
+      "fichier": "apropos-atelier.jpg",
+      "priorite": "Indispensable",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1600,
+      "hauteur": 900,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "A small home workshop corner in an old Alsatian village house: a sturdy wooden workbench under a small window with a deep sandstone sill, a pegboard of neatly hung tools, an unbranded desktop computer tower with its side panel off, a desk lamp, warm late-afternoon light; a single workbench corner, not a big repair shop, nothing like a store, nobody in the frame. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, the lower third stays dark and simple for text overlay. Warm documentary editorial photography, 35mm lens, calm, precise and reassuring mood, palette of off-white, pale warm grey, deep night blue and one tiny green power-light glow, soft daylight from a side window, tactile light oak wood, brushed aluminium, matte black electronics and fine copper circuit traces, set in a village house in Alsace, France on an ordinary weekday, shallow depth of field, soft film grain, calm and reassuring, generous negative space. No brand logo on devices, no apple logo, no readable screen, no interface, no code on screen, no hologram, no futuristic overlay, no visible face. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/apropos-atelier",
+      "mobile": true,
+      "attendu": "apropos-atelier-mobile.jpg",
+      "fichier": "apropos-atelier-mobile.jpg",
+      "priorite": "Indispensable",
+      "problemes": [
+        "ratio 0.56 au lieu de 784×1168"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1080,
+      "hauteur": 1920,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "A small home workshop corner in an old Alsatian village house: a sturdy wooden workbench under a small window with a deep sandstone sill, a pegboard of neatly hung tools, an unbranded desktop computer tower with its side panel off, a desk lamp, warm late-afternoon light; a single workbench corner, not a big repair shop, nothing like a store, nobody in the frame. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Warm documentary editorial photography, 35mm lens, calm, precise and reassuring mood, palette of off-white, pale warm grey, deep night blue and one tiny green power-light glow, soft daylight from a side window, tactile light oak wood, brushed aluminium, matte black electronics and fine copper circuit traces, set in a village house in Alsace, France on an ordinary weekday, shallow depth of field, soft film grain, calm and reassuring, generous negative space. No brand logo on devices, no apple logo, no readable screen, no interface, no code on screen, no hologram, no futuristic overlay, no visible face. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/rdv-mallette",
+      "attendu": "rdv-mallette.jpg",
+      "fichier": "rdv-mallette.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [],
+      "largeur": 1500,
+      "hauteur": 1000,
+      "boites": []
+    },
+    {
+      "nom": "grok/page-404",
+      "attendu": "page-404.jpg",
+      "fichier": "page-404.jpg",
+      "priorite": "Conseillée",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1600,
+      "hauteur": 900,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "An unplugged power cable hanging over the edge of a wooden table, its plug dangling in mid-air above the floor, a plain wall behind, soft warm light, minimalist and slightly humorous, nobody in the frame. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Warm documentary editorial photography, 35mm lens, calm, precise and reassuring mood, palette of off-white, pale warm grey, deep night blue and one tiny green power-light glow, soft daylight from a side window, tactile light oak wood, brushed aluminium, matte black electronics and fine copper circuit traces, set in a village house in Alsace, France on an ordinary weekday, shallow depth of field, soft film grain, calm and reassuring, generous negative space. No brand logo on devices, no apple logo, no readable screen, no interface, no code on screen, no hologram, no futuristic overlay, no visible face. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    }
+  ]
+}
