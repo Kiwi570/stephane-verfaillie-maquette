@@ -1,6 +1,23 @@
 {
   "siteActuel": "stephaneverfaillie.fr",
-  "pagesTypes": ["/", "/services", "/professionnels", "/a-propos", "/rendez-vous"],
-  "effets": ["badge", "coche", "zone", "voyant", "prix-geant", "balayage", "etapes", "ticket"],
-  "grille": { "dispenses": {} }
+  "pagesTypes": [
+    "/",
+    "/services",
+    "/professionnels",
+    "/a-propos",
+    "/rendez-vous"
+  ],
+  "effets": [
+    "badge",
+    "coche",
+    "zone",
+    "anneau",
+    "prix-geant",
+    "balayage",
+    "etapes",
+    "ticket"
+  ],
+  "grille": {
+    "dispenses": {}
+  }
 }

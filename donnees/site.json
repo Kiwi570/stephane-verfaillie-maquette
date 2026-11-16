@@ -3,7 +3,7 @@
   "metier": "Ingénieur informatique",
   "adresse": "https://stephane-verfaillie-maquette.vercel.app",
   "siteActuel": "stephaneverfaillie.fr",
-  "version": 1,
+  "version": 2,
   "langues": ["fr"],
   "navigation": ["accueil", "services", "professionnels", "a-propos", "rendez-vous"],
   "actionEntete": { "page": "rendez-vous" },

@@ -240,7 +240,7 @@ em { font-style: normal; color: var(--vert); }
 .hero-intro { max-width: 32em; font-size: clamp(1.05rem, .98rem + .35vw, 1.28rem); color: var(--texte-doux); }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin: 0 0 clamp(18px, 3vh, 30px); }
 .hero-bas { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
-.hero-photo { height: min(78svh, 760px); aspect-ratio: 4 / 5; justify-self: end; width: auto; max-width: 100%; border-radius: var(--rayon-grand); }
+.hero-photo { height: min(84svh, 820px); aspect-ratio: 4 / 5; justify-self: end; width: auto; max-width: 100%; border-radius: var(--rayon-grand); }
 /* Pastille « dès 30 € » : objet d'ouverture ; sur ordinateur elle mord sur le coin de la photo. */
 .pastille { position: relative; flex: none; width: clamp(132px, 11vw, 168px); aspect-ratio: 1; border-radius: 50%; background: var(--nuit); color: var(--clair); display: grid; place-items: center; box-shadow: 0 18px 40px -18px rgba(15, 45, 74, .6); }
 .pastille-texte { position: absolute; inset: 0; width: 100%; height: 100%; }
@@ -308,7 +308,7 @@ em { font-style: normal; color: var(--vert); }
 .pannes { overflow: hidden; }
 .pannes-mots { margin: 0 0 clamp(28px, 4vw, 48px); }
 .pannes-mots p { font-family: var(--police-titres); font-weight: 300; font-size: clamp(3rem, 7.5vw, 7rem); line-height: 1.05; letter-spacing: -.04em; color: #79817b; }
-.pannes-mots p + p { color: var(--vert); }
+.pannes-mots p + p { color: var(--nuit); }
 .pannes-grille { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(14px, 1.6vw, 22px); }
 .panne { padding: 26px 26px 22px; border-radius: var(--rayon); background: var(--blanc); display: flex; flex-direction: column; }
 .panne-icone { width: 54px; height: 54px; border-radius: 16px; background: color-mix(in srgb, var(--voyant) 14%, var(--fond)); color: var(--vert); display: grid; place-items: center; margin-bottom: 18px; }
@@ -383,7 +383,8 @@ em { font-style: normal; color: var(--vert); }
 .duo-prix { font-family: var(--police-titres); font-size: 1.35rem; font-weight: 750; color: var(--texte) !important; }
 .apprendre-media { aspect-ratio: 4 / 5; border-radius: var(--rayon-grand); }
 @media (max-width: 760px) { .apprendre-grille { grid-template-columns: minmax(0, 1fr); } .apprendre-media { aspect-ratio: 16 / 11; } }
-@media (max-width: 480px) { .duo { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 339px) { .duo { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 600px) { .duo-carte { padding: 18px; } .duo-icone { width: 44px; height: 44px; margin-bottom: 10px; } }
 
 /* Avis. */
 .avis-tete { display: flex; align-items: flex-end; gap: 20px; margin-bottom: clamp(26px, 4vw, 44px); }
@@ -403,16 +404,32 @@ em { font-style: normal; color: var(--vert); }
 .avis-source { margin: 18px 0 0; font-size: .92rem; color: var(--texte-doux); }
 @media (max-width: 900px) { .avis-grille { grid-template-columns: minmax(0, 1fr); } }
 
-/* Appel final : bande bleu nuit, photo à droite. */
+/* Appel final : bande bleu nuit ; grand bouton marche/arrêt qui s'allume (ou photo à droite sur la page pros). */
 .appel { position: relative; background: var(--nuit); color: var(--clair); overflow: hidden; isolation: isolate; }
+.appel-grille { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, .8fr); gap: clamp(28px, 5vw, 80px); align-items: center; padding-block: clamp(80px, 10vw, 150px); }
+.appel--photo .appel-grille { grid-template-columns: minmax(0, 1fr); }
 .appel-media { position: absolute; top: 0; right: 0; bottom: 0; width: 58%; border-radius: 0; z-index: -1; }
-.appel-media::after { content: ''; position: absolute; inset: 0; background: linear-gradient(90deg, var(--nuit) 0%, rgba(15, 45, 74, .75) 35%, rgba(15, 45, 74, 0) 75%); pointer-events: none; }
-.appel-contenu { padding-block: clamp(80px, 11vw, 160px); }
+.appel-media::after { content: ''; position: absolute; inset: 0; background: linear-gradient(90deg, var(--nuit) 0%, rgba(15, 45, 74, .75) 35%, rgba(15, 45, 74, 0) 75%); pointer-events: none; z-index: 1; }
 .appel-contenu h2 { color: #fff; max-width: 11em; font-size: clamp(2.4rem, 1.5rem + 3.6vw, 4.8rem); }
 .appel-contenu > p { max-width: 31em; color: var(--clair-doux); }
 .appel-marche { width: 64px; height: 64px; fill: none; stroke: var(--voyant); stroke-width: 9; stroke-linecap: round; margin-bottom: 24px; }
 .appel-actions { display: flex; flex-wrap: wrap; gap: 12px; margin: 28px 0 0; }
-@media (max-width: 760px) { .appel-media { position: relative; width: 100%; height: 240px; } .appel-media::after { background: linear-gradient(0deg, var(--nuit) 0%, rgba(15, 45, 74, 0) 60%); } .appel-contenu { padding-top: 12px; } }
+.appel-anneau { position: relative; justify-self: center; width: min(100%, 360px); aspect-ratio: 1; }
+.appel-anneau::before { content: ''; position: absolute; inset: -18%; border-radius: 50%; background: radial-gradient(circle, rgba(22, 193, 114, .32) 0%, rgba(22, 193, 114, .08) 45%, rgba(22, 193, 114, 0) 70%); opacity: 0; transform: scale(.85); transition: opacity .9s var(--courbe), transform .9s var(--courbe); }
+.appel-anneau.est-allume::before { opacity: 1; transform: scale(1); }
+.anneau { position: relative; width: 100%; height: 100%; overflow: visible; }
+.anneau-fond { fill: #12385a; stroke: rgba(238, 242, 240, .12); stroke-width: 1.5; }
+.anneau-arc, .anneau-trait { fill: none; stroke: var(--clair); stroke-width: 13; stroke-linecap: round; stroke-dasharray: 1; stroke-dashoffset: 0; transition: stroke .6s var(--courbe); }
+.anneau-led { fill: #5b6b78; transition: fill .4s; }
+.appel-anneau.est-allume :is(.anneau-arc, .anneau-trait) { stroke: var(--voyant); }
+.appel-anneau.est-allume .anneau-led { fill: var(--voyant); animation: led 2.2s ease-in-out infinite; }
+html.js:not(.secours):not([data-arrivee="retour"]) :is(.anneau-arc, .anneau-trait) { stroke-dashoffset: 1; }
+@media (max-width: 760px) {
+  .appel-grille { grid-template-columns: minmax(0, 1fr); padding-block: 64px 72px; }
+  .appel-anneau { width: min(56vw, 220px); grid-row: 1; justify-self: start; }
+  .appel-media { position: relative; width: 100%; height: 240px; } .appel-media::after { background: linear-gradient(0deg, var(--nuit) 0%, rgba(15, 45, 74, 0) 60%); }
+  .appel--photo .appel-grille { padding-top: 12px; }
+}
 
 /* Pied de page bleu nuit. */
 .pied { background: var(--nuit); color: var(--clair); border: 0; padding: 72px 0 calc(28px + var(--barres-h)); }
@@ -462,11 +479,11 @@ html.js:not(.secours):not([data-arrivee="retour"]) .rouleau-piste { transform: t
 .table-tarifs th, .table-tarifs td { padding: 12px 0; border-bottom: 1px solid var(--ligne); text-align: left; vertical-align: top; }
 .table-tarifs tr:last-child :is(th, td) { border-bottom: 0; }
 .table-tarifs th { font-weight: 500; padding-right: 16px; }
-.table-tarifs td { text-align: right; white-space: nowrap; font-weight: 700; font-variant-numeric: tabular-nums; }
+.table-tarifs td { text-align: right; white-space: nowrap; padding-left: 12px; font-weight: 700; font-variant-numeric: tabular-nums; }
 .prix-inclus { color: var(--vert); }
 .prix-devis { color: var(--texte-doux); font-weight: 600 !important; }
 @media (max-width: 860px) { .familles { grid-template-columns: minmax(0, 1fr); } }
-@media (max-width: 420px) { .table-tarifs td { white-space: normal; max-width: 7.5em; } }
+@media (max-width: 420px) { .table-tarifs th { font-size: .95rem; } .table-tarifs td { font-size: .95rem; } .table-tarifs td.prix-long { white-space: normal; max-width: 8.5em; } }
 
 .estimer-grille { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, .8fr); gap: clamp(28px, 5vw, 72px); align-items: start; }
 .estimer-form fieldset { border: 0; padding: 0; margin: 22px 0 0; display: grid; gap: 8px; }
@@ -501,7 +518,7 @@ html.js:not(.secours):not([data-arrivee="retour"]) .rouleau-piste { transform: t
 /* Professionnels : ouverture plein cadre. */
 .pros-tete { position: relative; min-height: 100svh; display: flex; align-items: flex-end; overflow: hidden; color: #fff; isolation: isolate; }
 .pros-tete-media { position: absolute; inset: 0; border-radius: 0; z-index: -2; }
-.pros-tete-media::after { content: ''; position: absolute; inset: 0; z-index: 1; pointer-events: none; background: linear-gradient(90deg, rgba(15, 45, 74, .94) 0%, rgba(15, 45, 74, .78) 42%, rgba(15, 45, 74, .1) 80%), linear-gradient(0deg, rgba(15, 45, 74, .6), rgba(15, 45, 74, 0) 40%); }
+.pros-tete-media::after { content: ''; position: absolute; inset: 0; z-index: 1; pointer-events: none; background: linear-gradient(90deg, rgba(15, 45, 74, .93) 0%, rgba(15, 45, 74, .7) 38%, rgba(15, 45, 74, 0) 66%), linear-gradient(0deg, rgba(15, 45, 74, .55), rgba(15, 45, 74, 0) 35%); }
 .pros-balayage { position: absolute; top: 0; bottom: 0; left: 0; width: 2px; background: var(--voyant); box-shadow: 0 0 24px 6px rgba(22, 193, 114, .45); z-index: 0; opacity: 0; pointer-events: none; }
 .pros-tete-contenu { padding-block: calc(var(--entete-h) + 40px) clamp(48px, 10vh, 110px); }
 .pros-tete h1 { color: #fff; max-width: 11em; font-size: clamp(2.8rem, min(6.6vw, 11vh), 6.4rem); line-height: .96; font-weight: 800; letter-spacing: -.04em; }
@@ -551,7 +568,7 @@ html.js:not(.secours):not([data-arrivee="retour"]) .rouleau-piste { transform: t
 @media (max-height: 500px) and (min-width: 761px) { .apropos-tete { padding-top: calc(var(--entete-h) + 10px); padding-bottom: 20px; } .apropos-portrait { width: 72px; margin-bottom: 6px; } .apropos-tete h1 { font-size: 13vh; } .apropos-intro { display: none; } }
 .atelier-ecran { --fx-longueur: 240svh; background: var(--nuit); }
 .atelier-media { border-radius: 0; }
-.atelier-mots { position: absolute; left: 0; right: 0; top: 50%; transform: translateY(-50%); margin: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 0 .3em; padding: 0 var(--gouttiere); pointer-events: none; z-index: 2; font-family: var(--police-titres); font-weight: 800; font-size: clamp(2.6rem, 8vw, 8rem); letter-spacing: -.04em; line-height: 1; color: #fff; text-shadow: 0 4px 40px rgba(15, 45, 74, .55); }
+.atelier-mots { position: absolute; left: 0; right: 0; top: 50%; transform: translateY(-50%); margin: 0; display: flex; flex-direction: column; align-items: center; gap: 0; padding: 0 var(--gouttiere); pointer-events: none; z-index: 2; font-family: var(--police-titres); font-weight: 800; font-size: clamp(2.4rem, 6vw, 6rem); letter-spacing: -.04em; line-height: 1; color: #fff; text-shadow: 0 4px 40px rgba(15, 45, 74, .55); }
 .atelier-legende { position: absolute; left: 50%; bottom: calc(var(--barres-h) + 28px); transform: translateX(-50%); z-index: 2; margin: 0; padding: 10px 18px; border-radius: 999px; background: rgba(15, 45, 74, .92); color: #fff; font-weight: 600; text-align: center; width: max-content; max-width: calc(100% - 2 * var(--gouttiere)); }
 :is(html.secours, html:not(.js)) .atelier-mots { position: relative; top: auto; transform: none; padding-block: 24px; background: var(--nuit); }
 :is(html.secours, html:not(.js)) .atelier-legende { position: relative; left: auto; bottom: auto; transform: none; margin: 16px auto; }
@@ -702,3 +719,60 @@ html:not(.js) :is(.introuvable, .pros-tete, .apropos-tete) { min-height: calc(10
 
 @media (max-height: 620px) and (min-width: 761px) { .apropos-tete { padding-top: calc(var(--entete-h) + 12px); padding-bottom: 16px; } .apropos-tete h1 { font-size: clamp(2.4rem, 11vh, 4rem); } .apropos-intro { display: none; } .apropos-portrait { width: 72px; } }
 html:not(.js) .apropos-tete { padding-top: 16px; }
+
+/* ===== v2 ===== */
+/* Faits rassurants sous les boutons de l'accueil. */
+.hero-faits { list-style: none; margin: 0 0 clamp(16px, 2.6vh, 26px); padding: 0; display: flex; flex-wrap: wrap; gap: 8px 20px; font-size: .95rem; font-weight: 600; color: var(--texte-doux); }
+.hero-faits li { display: inline-flex; align-items: center; gap: 8px; }
+.hero-fait-icone { width: 1.25em; height: 1.25em; color: var(--vert); }
+@media (max-width: 760px) { .hero-faits { display: none; } }
+@media (max-height: 700px) and (min-width: 761px) { .hero-faits { display: none; } }
+
+/* Formations et web : bande compacte, sans photo. */
+.apprendre-grille { grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); }
+.apprendre-grille .duo { margin: 0; }
+.duo-carte { padding: 28px; display: flex; flex-direction: column; }
+.duo-icone { width: 54px; height: 54px; border-radius: 16px; display: grid; place-items: center; background: color-mix(in srgb, var(--voyant) 14%, var(--fond)); color: var(--vert); margin-bottom: 16px; }
+.duo-icone .icone { width: 28px; height: 28px; margin: 0; }
+.duo-carte .duo-prix { margin-top: auto; padding-top: 12px; }
+@media (max-width: 760px) { .apprendre-grille { grid-template-columns: minmax(0, 1fr); } }
+
+/* Avis : la grande carte à gauche, les deux autres empilées à droite. */
+@media (min-width: 901px) {
+  .avis-grille { grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); grid-template-rows: auto auto; }
+  .avis-carte--grande { grid-row: span 2; justify-content: center; }
+  .avis-carte:not(.avis-carte--grande) { padding: 22px 26px; gap: 12px; }
+}
+@media (min-width: 601px) and (max-width: 900px) { .avis-grille { grid-template-columns: repeat(2, minmax(0, 1fr)); } .avis-carte--grande { grid-column: 1 / -1; } }
+
+/* Lien de rendez-vous de la carte. */
+.zone-lien { margin-top: 2px; }
+.zone-lien[hidden] { display: none; }
+
+/* Survol des cartes : elles se soulèvent, la photo se rapproche. */
+@media (hover: hover) and (pointer: fine) {
+  :is(.facon, .panne, .offre, .famille, .duo-carte, .avis-carte, .faits li) { transition: transform .35s var(--courbe), box-shadow .35s var(--courbe); }
+  :is(.facon, .panne, .offre, .duo-carte, .faits li):hover { transform: translateY(-4px); box-shadow: 0 18px 40px -22px rgba(15, 45, 74, .35); }
+  .facon .media img { transition: scale .6s var(--courbe); }
+  .facon:hover .media img { scale: 1.04; }
+  .panne:hover .panne-icone, .offre:hover .offre-icone { background: var(--voyant); color: var(--texte); }
+  .panne-icone, .offre-icone { transition: background-color .3s, color .3s; }
+}
+
+/* Téléphone : pied de page compact, portrait plus petit. */
+@media (max-width: 760px) {
+  .stephane-portrait { width: min(240px, 66%); }
+  .pied { padding-top: 48px; }
+  .pied-grille { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 20px; }
+  .pied-marque { grid-column: 1 / -1; display: flex; align-items: center; gap: 16px; }
+  .pied-marque img { width: 72px; margin: 0; }
+  .pied-marque p { margin: 0; font-size: .95rem; }
+  .pied nav { grid-column: 1 / -1; }
+  .pied nav ul { display: flex; flex-wrap: wrap; gap: 0 18px; }
+  .pied-bas { flex-direction: column; gap: 4px; }
+  .pied-bas p { margin: 0; }
+}
+@media (max-width: 380px) { .pied-grille { grid-template-columns: minmax(0, 1fr); } }
+/* Téléphone couché : la pastille mord sur la photo, plus sur les boutons. */
+@media (max-height: 500px) and (min-width: 1061px) { .pastille { width: 84px; right: calc(-1 * var(--hero-gap) - 24px); bottom: -4px; } }
+@media (max-height: 500px) and (min-width: 761px) and (max-width: 1060px) { .hero-bas { justify-content: space-between; margin-top: 22px; } .pastille { width: 70px; } .pastille-texte text { font-size: 22px; } }

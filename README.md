@@ -8,7 +8,7 @@ En ligne : https://stephane-verfaillie-maquette.vercel.app (non indexée par les
 - Services et tarifs `/services` (filtre par famille gardé dans l'adresse : `?famille=formations`)
 - Professionnels `/professionnels`
 - À propos `/a-propos`
-- Rendez-vous `/rendez-vous` (préremplissage : `?lieu=domicile`, `atelier`, `distance` ou `pro`)
+- Rendez-vous `/rendez-vous` (préremplissage : `?lieu=domicile`, `atelier`, `distance` ou `pro`, et `&commune=Mutzig`)
 - Page introuvable `/404`
 
 ## Mettre à jour

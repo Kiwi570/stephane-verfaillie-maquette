@@ -40,7 +40,7 @@ export default (c) => {
         ${[['f1', 'livre'], ['f2', 'equipe'], ['f3', 'maison'], ['f4', 'fenetre']].map(([k, ic]) => html`<li>${icone(ic, { trace: false })}<div><h3>${T(k)}</h3><p>${T(k + 't')}</p></div></li>`)}
       </ul>
     </div>
-    ${c.media({ nom: 'grok/facon-atelier', alt: T('parcoursAlt'), classe: 'parcours-media', sizes: '(max-width: 760px) 92vw, 40vw', attrs: 'data-fx="parallaxe"' })}
+    ${c.media({ nom: 'grok/rdv-mallette', alt: c.s('rdv.mallettealt'), classe: 'parcours-media', sizes: '(max-width: 760px) 92vw, 40vw', attrs: 'data-fx="parallaxe"' })}
   </div>
 </section>
 

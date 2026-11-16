@@ -28,6 +28,7 @@ export function zone(c, { id = 'zone' } = {}) {
         </div>
         <datalist id="${id}-liste">${z.communes.map((x) => html`<option value="${x.nom}"></option>`)}</datalist>
         <p class="zone-resultat" data-zone-resultat aria-live="polite" data-dedans="${c.s('accueil.zone.dedans')}" data-dehors="${c.s('accueil.zone.dehors')}"></p>
+        <a class="lien-fleche zone-lien" data-zone-lien hidden href="${c.url('rendez-vous', '', 'lieu=domicile')}" data-modele="${c.s('accueil.zone.rdv')}" data-libelle="${c.libelle('rendez-vous')}">${c.t('accueil.zone.rdv', { commune: '' })}</a>
         <p class="zone-aide">${c.t('accueil.zone.aide')}</p>
       </form>
     </div>
@@ -54,7 +55,7 @@ export function avis(c) {
       <svg class="avis-guillemet" viewBox="0 0 80 60" aria-hidden="true" data-fx="trace" data-visuel><path d="M30 8C16 12 8 22 8 36c0 9 5 15 12 15 6 0 11-5 11-11s-4-10-10-10c-2 0-3 0-4 1 2-8 7-13 15-16M70 8C56 12 48 22 48 36c0 9 5 15 12 15 6 0 11-5 11-11s-4-10-10-10c-2 0-3 0-4 1 2-8 7-13 15-16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
       <h2 data-anime="lignes">${c.t('accueil.avis.titre')}</h2>
     </div>
-    <div class="avis-grille" data-anime="cascade">
+    <div class="avis-grille rangee-tel" data-anime="cascade" tabindex="0" role="region" aria-label="${c.s('accueil.avis.titre')}">
       ${c.donnees.avis.map((a, i) => html`<figure class="avis-carte${i === 0 ? ' avis-carte--grande' : ''}">
         ${a.texte ? html`<blockquote><p>${a.texte}</p></blockquote>` : ''}
         ${a.aspects.length ? html`<ul class="avis-aspects" aria-label="${c.s('accueil.avis.aspects')}">${a.aspects.map((x) => html`<li>${x}</li>`)}</ul>` : ''}
@@ -66,18 +67,24 @@ export function avis(c) {
 </section>`;
 }
 
-export function appel(c, { image = 'grok/appel-fond', alt = c.s('commun.appelAlt'), titre = c.t('commun.appelTitre'), texte = c.t('commun.appelTexte'), params = '', bouton = c.t('commun.appelRdv') } = {}) {
-  return html`<section class="appel" id="appel">
-  ${c.media({ nom: image, alt, classe: 'appel-media', sizes: '(max-width: 760px) 100vw, 60vw', attrs: 'data-fx="zoom"' })}
-  <div class="conteneur appel-contenu">
-    ${marche('appel-marche')}
-    <h2 data-anime="lignes">${titre}</h2>
-    <p data-anime>${texte}</p>
-    <p class="appel-actions">
-      ${c.lien('rendez-vous', { params, classe: 'bouton', texte: bouton, attrs: 'data-survol="magnetique"' })}
-      <a class="bouton bouton--contour-clair" href="tel:${c.site.contact.telephoneLien}" aria-label="${c.s('commun.appeler')} ${c.site.contact.telephone}">${icone('telephone', { trace: false, classe: 'icone icone--bouton' })}${c.site.contact.telephone}</a>
-    </p>
-    ${statut(c, { classe: 'statut--clair', effet: 'voyant' })}
+/* Appel final : bande bleu nuit. Sans image, un grand bouton marche/arrêt se trace et s'allume en vert quand on
+   arrive dessus (effet « anneau ») ; avec image (page pros), la photo occupe la droite sous un dégradé. */
+export function appel(c, { image = null, alt = '', titre = c.t('commun.appelTitre'), texte = c.t('commun.appelTexte'), params = '', bouton = c.t('commun.appelRdv') } = {}) {
+  return html`<section class="appel${image ? ' appel--photo' : ''}" id="appel">
+  ${image ? c.media({ nom: image, alt, classe: 'appel-media', sizes: '(max-width: 760px) 100vw, 60vw', attrs: 'data-fx="zoom"' }) : ''}
+  <div class="conteneur appel-grille">
+    <div class="appel-contenu">
+      ${image ? marche('appel-marche') : ''}
+      <h2 data-anime="lignes">${titre}</h2>
+      <p data-anime>${texte}</p>
+      <p class="appel-actions" data-anime>
+        ${c.lien('rendez-vous', { params, classe: 'bouton', texte: bouton, attrs: 'data-survol="magnetique"' })}
+        <a class="bouton bouton--contour-clair" href="tel:${c.site.contact.telephoneLien}" aria-label="${c.s('commun.appeler')} ${c.site.contact.telephone}">${icone('telephone', { trace: false, classe: 'icone icone--bouton' })}${c.site.contact.telephone}</a>
+      </p>
+    </div>
+    ${image ? '' : html`<div class="appel-anneau" data-visuel aria-hidden="true">
+      <svg class="anneau" viewBox="0 0 240 240"><circle class="anneau-fond" cx="120" cy="120" r="104"/><path class="anneau-arc" d="M80.6 66.3 A64 64 0 1 0 159.4 66.3" pathLength="1" data-effet="anneau"/><path class="anneau-trait" d="M120 42 V114" pathLength="1"/><circle class="anneau-led" cx="120" cy="206" r="5"/></svg>
+    </div>`}
   </div>
 </section>`;
 }

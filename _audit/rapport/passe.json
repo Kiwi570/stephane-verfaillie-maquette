@@ -1,12 +1,12 @@
 {
- "id": "20261116-200900-complet",
- "date": "2026-11-16T20:29:40.785Z",
+ "id": "20261116-221208-complet",
+ "date": "2026-11-16T22:32:34.327Z",
  "niveau": "complet",
  "pages": "toutes",
  "etapes": "toutes",
- "version": "1",
+ "version": "2",
  "echecs": 0,
- "aRegarder": 30,
+ "aRegarder": 25,
  "nonLances": 1,
  "manquants": 0,
  "statut": "complet"

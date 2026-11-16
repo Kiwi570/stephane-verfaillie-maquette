@@ -102,18 +102,6 @@
   "consigne_scene": "Seen from behind and slightly above, over a shoulder: an older adult's hands resting on the keyboard of an unbranded laptop on a kitchen table, a younger helper's hand pointing at the keyboard, the screen out of focus and turned away, a plain notebook with a pencil, warm morning light, no face visible"
  },
  {
-  "source": "recu/grok/appel-fond.jpg",
-  "nom": "grok/appel-fond",
-  "role": "section-fond",
-  "zone_texte": "gauche",
-  "beaute": 4,
-  "page": "Accueil",
-  "emplacement": "appel final (fond sombre, aussi pages Services et À propos)",
-  "priorite": "Conseillée",
-  "alt": "Mur bleu nuit, une plante et une tasse dans la lumière du soir",
-  "consigne_scene": "Evening on a home desk in a dim room: an unbranded laptop half open, its keyboard softly backlit, a tiny green power light glowing, the subject in the right third, deep calm night-blue shadows over the left half, nobody in the frame"
- },
- {
   "source": "recu/grok/services-bandeau.jpg",
   "nom": "grok/services-bandeau",
   "role": "ouverture",

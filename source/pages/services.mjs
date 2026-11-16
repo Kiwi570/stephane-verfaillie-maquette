@@ -41,7 +41,7 @@ export default (c) => {
       ${t.familles.map((f) => html`<article class="famille" data-famille="${f.id}" id="famille-${f.id}">
         <header class="famille-tete">${icone(f.icone)}<h3>${f.nom}</h3></header>
         <table class="table-tarifs"><caption class="visuellement-cache">${f.nom}</caption>
-          <tbody>${f.lignes.map((l) => html`<tr><th scope="row">${l.nom}</th><td data-prix class="${/€/.test(l.prix) ? 'prix-chiffre' : l.prix === 'Inclus' ? 'prix-inclus' : 'prix-devis'}">${l.prix}</td></tr>`)}</tbody>
+          <tbody>${f.lignes.map((l) => html`<tr><th scope="row">${l.nom}</th><td data-prix class="${/€/.test(l.prix) ? 'prix-chiffre' : l.prix === 'Inclus' ? 'prix-inclus' : 'prix-devis'}${l.prix.length > 14 ? ' prix-long' : ''}">${l.prix}</td></tr>`)}</tbody>
         </table>
       </article>`)}
     </div>

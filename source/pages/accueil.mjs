@@ -20,6 +20,7 @@ export default (c) => {
       ${c.lien('rendez-vous', { classe: 'bouton', texte: T('hero.rdv'), attrs: 'data-action-principale data-survol="magnetique"' })}
       <a class="bouton bouton--contour" href="tel:${c.site.contact.telephoneLien}" aria-label="${c.s('accueil.hero.appelerAria')}">${icone('telephone', { trace: false, classe: 'icone icone--bouton' })}${T('hero.appeler')}</a>
     </p>
+    <ul class="hero-faits masque-ecran-bas" data-anime="gsap">${[['fait1', 'livre'], ['fait2', 'maison'], ['fait3', 'equipe']].map(([k, ic]) => html`<li>${icone(ic, { trace: false, classe: 'icone hero-fait-icone' })}${T(`hero.${k}`)}</li>`)}</ul>
     <div class="hero-bas" data-anime="gsap">
       ${statut(c, { info: true })}
       <div class="pastille" data-iris-centre="disque">
@@ -42,7 +43,7 @@ export default (c) => {
     </div>
     <div class="facons-grille rangee-tel" data-anime="cascade" tabindex="0" role="region" aria-label="${c.s('accueil.facons.surtitre')}">
       ${[['domicile', ['domicileP1', 'domicileP2', 'domicileP3'], 'maison', 'lieu=domicile'], ['atelier', ['atelierP1', 'atelierP2'], 'atelier', 'lieu=atelier'], ['distance', ['distanceP1', 'distanceP2'], 'distance', 'lieu=distance']].map(([k, prix, ic, p]) => html`<article class="facon">
-        ${c.media({ nom: `grok/facon-${k}`, alt: c.s(`accueil.facons.${k}Alt`), classe: 'facon-media', sizes: '(max-width: 760px) 92vw, 30vw' })}
+        ${c.media({ nom: `grok/facon-${k}`, alt: c.s(`accueil.facons.${k}Alt`), classe: 'facon-media', sizes: '(max-width: 760px) 92vw, 30vw', attrs: 'data-fx="zoom"' })}
         <div class="facon-corps">
           <span class="facon-icone">${icone(ic, { trace: false })}</span>
           <h3>${T(`facons.${k}Titre`)}</h3>
@@ -142,13 +143,13 @@ ${zone(c)}
     <div>
       ${surtitre(T('apprendre.surtitre'))}
       <h2 data-anime="lignes">${T('apprendre.titre')}</h2>
-      <div class="duo" data-anime="cascade">
-        <div class="duo-carte">${icone('livre', { trace: false })}<h3>${T('apprendre.formTitre')}</h3><p>${T('apprendre.formTexte')}</p><p class="duo-prix" data-prix>${T('apprendre.formPrix')}</p></div>
-        <div class="duo-carte">${icone('fenetre', { trace: false })}<h3>${T('apprendre.webTitre')}</h3><p>${T('apprendre.webTexte')}</p><p class="duo-prix" data-prix>${T('apprendre.webPrix')}</p></div>
-      </div>
+      <p data-anime>${T('apprendre.texte')}</p>
       <p data-anime>${c.lien('services', { ancre: 'tarifs', params: 'famille=formations', classe: 'lien-fleche', texte: T('facons.tous') })}</p>
     </div>
-    ${c.media({ nom: 'grok/apprendre', alt: T('apprendre.alt'), classe: 'apprendre-media', sizes: '(max-width: 760px) 92vw, 45vw', attrs: 'data-fx="vitesse"' })}
+    <div class="duo" data-anime="cascade" data-visuel>
+      <div class="duo-carte"><span class="duo-icone">${icone('livre')}</span><h3>${T('apprendre.formTitre')}</h3><p>${T('apprendre.formTexte')}</p><p class="duo-prix" data-prix>${T('apprendre.formPrix')}</p></div>
+      <div class="duo-carte"><span class="duo-icone">${icone('fenetre')}</span><h3>${T('apprendre.webTitre')}</h3><p>${T('apprendre.webTexte')}</p><p class="duo-prix" data-prix>${T('apprendre.webPrix')}</p></div>
+    </div>
   </div>
 </section>
 

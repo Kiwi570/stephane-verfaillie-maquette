@@ -4,9 +4,9 @@
    à l'heure de Paris, la pastille (badge), les coches (coche), la carte des 30 km (zone), le prix géant (prix-geant),
    la ligne de balayage des pros (balayage), la frise du rendez-vous (etapes), le filtre des tarifs, l'estimateur
    (ticket) et le formulaire de rendez-vous (module formulaire-par-etapes de la bibliothèque). */
-import { demarrer, versObjet, quand } from './socle/index.js?v=1';
-import { preparer as lireHoraires, maintenant, statut as statutDe, jour, ajouter, jourDe, JOURS } from './modules/horaires-calcul.js?v=1';
-import { init as initFormulaire } from './modules/formulaire-par-etapes.js?v=1';
+import { demarrer, versObjet, quand } from './socle/index.js?v=2';
+import { preparer as lireHoraires, maintenant, statut as statutDe, jour, ajouter, jourDe, JOURS } from './modules/horaires-calcul.js?v=2';
+import { init as initFormulaire } from './modules/formulaire-par-etapes.js?v=2';
 
 const gsap = window.gsap;
 const ST = window.ScrollTrigger;
@@ -26,7 +26,9 @@ function statutDuMoment() {
   const s = statutDe(a, n, horaires.seuil);
   if (s.etat === 'ouvert') return { ouvert: true, texte: `Joignable maintenant · jusqu'à ${s.texte.split('à ').pop()}` };
   if (s.etat === 'bientot') return { ouvert: true, texte: `Joignable encore ${s.reste} min` };
-  return { ouvert: false, texte: s.texte.replace('Fermé · ouvre', 'Fermé · joignable').replace(/\s/g, ' ') };
+  /* Fermé : formulé en positif (« Joignable demain dès 8 h »). */
+  const quand = s.texte.replace(/^Fermé · /, '').replace(/^r?ouvre /, '').replace(/^à /, 'dès ').replace(/ à (\d)/, ' dès $1');
+  return { ouvert: false, texte: s.prochaine ? `Joignable ${quand}` : s.texte };
 }
 function majStatut() {
   const s = statutDuMoment();
@@ -59,6 +61,17 @@ function coches() {
   });
 }
 
+/* ---------- Appel final : le bouton marche/arrêt se trace puis s'allume ---------- */
+function anneaux() {
+  $$('.appel-anneau').forEach((a) => {
+    const arc = $('.anneau-arc', a), trait = $('.anneau-trait', a);
+    const tl = gsap.timeline({ scrollTrigger: { trigger: a, start: 'top 85%', end: 'center 55%', scrub: 0.5 } });
+    tl.fromTo(arc, { strokeDashoffset: 1 }, { strokeDashoffset: 0, ease: 'none', duration: 1 }, 0)
+      .fromTo(trait, { strokeDashoffset: 1 }, { strokeDashoffset: 0, ease: 'none', duration: 0.5 }, 0.5);
+    ST.create({ trigger: a, start: 'center 58%', onEnter: () => a.classList.add('est-allume'), onLeaveBack: () => a.classList.remove('est-allume') });
+  });
+}
+
 /* ---------- Carte des 30 km ---------- */
 function zones() {
   $$('section.zone').forEach((sec) => {
@@ -69,7 +82,7 @@ function zones() {
     try { communes = JSON.parse($('[data-communes]', sec).textContent); } catch {}
     const index = Object.fromEntries(Object.keys(communes).map((n) => [sansAccent(n), n]));
     const form = $('[data-zone-form]', sec), champ = $('input', form), res = $('[data-zone-resultat]', sec), choix = $('[data-zone-choix]', sec);
-    const ligne = $('line', choix), point = $('circle', choix);
+    const ligne = $('line', choix), point = $('circle', choix), lien = $('[data-zone-lien]', sec);
     const verifier = () => {
       const brut = champ.value.trim(); if (!brut) { res.textContent = ''; choix.classList.remove('est-visible'); return; }
       const nom = index[sansAccent(brut)];
@@ -80,7 +93,9 @@ function zones() {
         gsap.to(ligne, { attr: { x2: x, y2: y }, duration: 0.5, ease: 'power3.out' });
         gsap.to(point, { attr: { cx: x, cy: y }, duration: 0.5, ease: 'power3.out' });
         choix.classList.add('est-visible');
+        if (lien) { lien.hidden = false; lien.textContent = lien.dataset.modele.replace('{commune}', nom); lien.setAttribute('href', lien.getAttribute('href').split('?')[0] + '?lieu=domicile&commune=' + encodeURIComponent(nom)); }
       } else {
+        if (lien) lien.hidden = true;
         res.textContent = res.dataset.dehors.replace('{commune}', brut);
         res.classList.remove('est-dedans');
         choix.classList.remove('est-visible');
@@ -138,9 +153,12 @@ function prixGeant(delai = 0) {
 function balayage(delai = 0) {
   const b = $('.pros-balayage'); if (!b) return;
   const w = () => document.documentElement.clientWidth;
-  gsap.fromTo(b, { x: 0, opacity: 1 }, { x: () => w() * 0.62, duration: 1.4, ease: 'power2.inOut', delay: delai });
+  const tl = gsap.timeline({ repeat: -1, repeatDelay: 5, delay: delai });
+  tl.fromTo(b, { x: 0, opacity: 0 }, { x: () => w() * 0.55, opacity: 1, duration: 0.9, ease: 'power1.in' })
+    .to(b, { x: () => w(), opacity: 0, duration: 0.9, ease: 'power1.out' });
+  ST.create({ trigger: '.pros-tete', start: 'top bottom', end: 'bottom top', onToggle: (e) => (e.isActive ? tl.play() : tl.pause()) });
+  document.addEventListener('visibilitychange', () => (document.hidden ? tl.pause() : tl.play()));
   gsap.to($('.pros-tete-media img'), { scale: 1.08, ease: 'none', scrollTrigger: { trigger: '.pros-tete', start: 'top top', end: 'bottom top', scrub: 0.4 } });
-  gsap.fromTo(b, { x: () => w() * 0.62 }, { x: () => w(), opacity: 0, ease: 'none', immediateRender: false, scrollTrigger: { trigger: '.pros-tete', start: 'top top', end: 'bottom 40%', scrub: 0.4, invalidateOnRefresh: true } });
 }
 function frise(delai = 0) {
   const f = $('.frise'); if (!f) return;
@@ -177,6 +195,7 @@ async function rendezVous() {
   /* Préremplissage depuis l'adresse (?lieu=domicile, atelier, distance ou pro). */
   const lieu = new URLSearchParams(location.search).get('lieu');
   const radio = lieu && $(`input[name="lieu"][value="${CSS.escape(lieu)}"]`, form); if (radio) radio.checked = true;
+  const communeUrl = new URLSearchParams(location.search).get('commune'); if (communeUrl) $('#rdv-commune').value = communeUrl.slice(0, 60);
   /* Commune : distance réelle. */
   let communes = {};
   try { communes = JSON.parse($('[data-communes]').textContent); } catch {}
@@ -224,7 +243,7 @@ function ouverturesInterieures(t0 = 0) { prixGeant(t0); balayage(t0); frise(t0);
 demarrer({
   preparer() {
     if (!gsap || !ST) return;
-    pastille(); coches(); zones(); filtres(); estimateur();
+    pastille(); coches(); anneaux(); zones(); filtres(); estimateur();
     rendezVous();
   },
   /* Intro (2,3 s) : le bouton marche/arrêt se trace, le voyant s'allume, la barre se remplit, puis le bouton glisse
@@ -249,6 +268,7 @@ demarrer({
     gsap.set('.rouleau-piste', { y: 0 });
     gsap.set('[data-coche]', { opacity: 1 });
     gsap.set('[data-coche] .coche circle, [data-coche] .coche path, .frise-trait path', { strokeDashoffset: 0 });
+    $$('.appel-anneau').forEach((a) => { gsap.set($$('.anneau-arc, .anneau-trait', a), { strokeDashoffset: 0 }); a.classList.add('est-allume'); });
     $$('.frise-etape').forEach((e, i) => e.classList.toggle('est-allumee', i === 0));
   },
   arrivee() { if (!gsap) return; arriveeAccueil(0.1); ouverturesInterieures(0.15); },

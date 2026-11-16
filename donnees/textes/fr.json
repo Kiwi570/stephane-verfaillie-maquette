@@ -29,12 +29,12 @@
     "appelTitre": "Un souci ? Appelez, ça repart.",
     "appelTexte": "Décrivez la panne au téléphone ou prenez rendez-vous en ligne. Domicile, atelier ou à distance : on choisit ensemble.",
     "appelRdv": "Prendre rendez-vous",
-    "appelAlt": "Mur bleu nuit, une plante et une tasse dans la lumière du soir",
     "hSemaine": "Lundi au vendredi : 8 h – 19 h",
     "hSamedi": "Samedi : 8 h – 18 h",
     "hDimanche": "Dimanche : fermé",
     "piedTexte": "Dépannage informatique à domicile, à l'atelier ou à distance, pour particuliers et professionnels. Molsheim et 30 km autour.",
-    "actionBarre": "Rendez-vous"
+    "actionBarre": "Rendez-vous",
+    "anneauAria": "Bouton de mise en marche qui s'allume"
   },
   "pages": {
     "accueil": {
@@ -89,7 +89,10 @@
       "rdv": "Prendre rendez-vous",
       "appeler": "06 87 92 84 90",
       "appelerAria": "Appeler le 06 87 92 84 90",
-      "alt": "Portable fermé sur un établi clair près d'une fenêtre, son voyant vert allumé"
+      "alt": "Portable fermé sur un établi clair près d'une fenêtre, son voyant vert allumé",
+      "fait1": "Ingénieur diplômé du CNAM",
+      "fait2": "Domicile, atelier ou à distance",
+      "fait3": "Particuliers et professionnels"
     },
     "facons": {
       "surtitre": "Trois façons de vous dépanner",
@@ -147,7 +150,8 @@
       "aide": "Distance à vol d'oiseau, du centre de Molsheim au centre de la commune.",
       "carteAlt": "Carte des communes à moins de 30 km de Molsheim, avec l'atelier de Niederhaslach",
       "atelier": "Atelier",
-      "source": "Contours des communes : données publiques, Bas-Rhin."
+      "source": "Contours des communes : données publiques, Bas-Rhin.",
+      "rdv": "Prendre rendez-vous à {commune}"
     },
     "pros": {
       "surtitre": "Professionnels",
@@ -166,7 +170,8 @@
       "webTitre": "Sites et applis",
       "webTexte": "Site web, page de réseau social, application mobile, maintenance.",
       "webPrix": "Sur devis",
-      "alt": "Portable ouvert sur une table, un carnet et une tasse à côté"
+      "alt": "Portable ouvert sur une table, un carnet et une tasse à côté",
+      "texte": "Pour vous ou vos équipes : se servir de son ordinateur sereinement, et avoir un site qui vous ressemble."
     },
     "avis": {
       "titre": "Ce qu'en disent les clients.",
