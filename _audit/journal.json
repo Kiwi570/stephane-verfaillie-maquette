@@ -55,7 +55,13 @@
           "etape": "livraison",
           "budget": 5,
           "debut": "2026-11-16T20:58:00+01:00",
-          "fin": ""
+          "fin": "2026-11-16T21:00:00+01:00"
+        },
+        {
+          "etape": "audit complet de la version finale (validation)",
+          "budget": 0,
+          "debut": "2026-11-16T21:09:00+01:00",
+          "fin": "2026-11-16T21:30:00+01:00"
         }
       ],
       "attentes": [
@@ -81,7 +87,7 @@
         "horaires-ouvert-maintenant (calcul)"
       ],
       "audit": {
-        "niveau": "standard + passe des formats (complet, mesures et écran)",
+        "niveau": "standard, passe des formats, puis complet à la validation (0 échec, Safari non lancé)",
         "echecsPremierPassage": 17,
         "relances": 4,
         "corrections": [
